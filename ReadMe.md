@@ -42,11 +42,11 @@ First and foremost we want you have fun! Please take this as a time to research 
 </html>
 ```
 
- - Suggested File Structure
-  app --
-    - index.html -> mark-up goes in here
-    - styles.css -> this is your stylesheet
-    - app.js -> all of your javascript in here
+ #### Suggested File Structure
+  - app --
+    - -- index.html -> mark-up goes in here
+    - -- styles.css -> this is your stylesheet
+    - -- app.js -> all of your javascript in here
 
- - Extra Credit
+ #### Extra Credit
   - If you've gotten this far go ahead now and research jQuery! A fun DOM interaction library that is still very commonly used today. Go wild refactoring your JavaScript file to use it and take advantage of it's power!
