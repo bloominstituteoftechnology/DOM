@@ -6,11 +6,11 @@
 ### Battle Plan
  - Objective: Now that you have learned about Data Structures we're going to be going over one of the most commonly used data structure today in Front End Development, The Document Object Model or DOM.
  - Your goal here is to learn as much as you can about HTML, CSS and how to use JS to interact with elements in a DOM Tree.
- - You're going to be cloning our LambdaSchool.com webpage. Try to reproduce it from scratch using whatever materials you'd like. 
+ - You're going to be cloning our LambdaSchool.com webpage. (NO jQuery at first. You'll get to that later.) Try to reproduce it from scratch using whatever materials you'd like. 
 
   - Tool suggesstions
     - Chrome Dev Tools
-    - For styles and marke-up ideas [CodePen](https://codepen.io/) [CSS-Tricks](https://css-tricks.com/)
+    - For styles and mark-up ideas [CodePen](https://codepen.io/) [CSS-Tricks](https://css-tricks.com/)
     - For DOM interaction stuff like Drop Down Menus etc, try and do as much as can with CSS first. 
     - After you've achieved all the animations on the site you can using CSS go ahead and 
 
