@@ -38,8 +38,9 @@ First and foremost we want you have fun! Please take this as a time to research 
       <li></li>
     </ul>
     <img src="">
+    <a href="www.google.com"></a>
   </body>
-  <scrip></scrip>
+  <script></script>
 </html>
 ```
 
