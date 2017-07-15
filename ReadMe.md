@@ -14,19 +14,15 @@
     - For DOM interaction stuff like Drop Down Menus etc, try and do as much as can with CSS first. 
     - After you've achieved all the animations on the site you can using CSS go ahead and 
 
- - Suggested File Structure
-  app --
-    - index.html -> mark-up goes in here
-    - styles.css -> this is your stylesheet
-    - app.js -> all of your javascript in here
-
- - Extra Credit
-  - If you've gotten this far go ahead now and research jQuery! A fun DOM interaction library that is still very commonly used today. Go wild refactoring your JavaScript file to use it and take advantage of it's power!
-
 First and foremost we want you have fun! Please take this as a time to research a lot of this stuff together in your partnershps. Being able to have HTML and CSS chops can be just as important as understanding the fundamentals of the JavaScript programming language. It will be something (regardless of if you work back or front end in your career) that you'll have to deal with at one point or another and this is the only sprint we have designed around learning these concepts. 
 
+### Research: what do each of these elements mean? 
+  #### How do I select an element using a class?
+  #### How do I select an element using an id?
+  #### How do I change the style and layout of an element?
+
 ```
-<html> // what do each of these elements mean? 
+<html> 
   <head>
     <link rel="stylesheet" href="">
   </head>
@@ -36,15 +32,21 @@ First and foremost we want you have fun! Please take this as a time to research 
     <p></p>
     <ol>
       <li></li>
-      <li></li>
     </ol>
     <ul>
       <li></li>
-      <li></li>
     </ul>
+    <img src="">
   </body>
   <scrip></scrip>
 </html>
 ```
 
-- Set up your file structure
+ - Suggested File Structure
+  app --
+    - index.html -> mark-up goes in here
+    - styles.css -> this is your stylesheet
+    - app.js -> all of your javascript in here
+
+ - Extra Credit
+  - If you've gotten this far go ahead now and research jQuery! A fun DOM interaction library that is still very commonly used today. Go wild refactoring your JavaScript file to use it and take advantage of it's power!
