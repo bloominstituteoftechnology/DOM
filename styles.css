@@ -1,4 +1,43 @@
-.nav-bar {
-    height: 65px;
-    max-height: 65px;
+body {
+  background-color: whitesmoke;
+}
+
+.main-container {
+  height: 300px;
+  width: 100%;
+}
+
+.navbar {
+  height: 75px;
+  max-height: 100px;
+  background: lightblue;
+  width: 100%;
+}
+
+.left {
+  float: left;
+  text-decoration: none;
+  width: 50px;
+  height: 30px;
+  hover: pointer;
+  /*   background: blue; */
+}
+
+.navbar-list li {
+  /*   float: left; */
+  background: pink;
+  color: white;
+  padding: 0px;
+  margin: 5px;
+}
+
+.container-center {
+  text-align: center;
+}
+
+.footer {
+  height: 75px;
+  max-height: 100px;
+  background: salmon;
+  width: 100%;
 }
