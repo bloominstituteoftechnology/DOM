@@ -115,6 +115,15 @@ li {
     width: 70px;
 }
 
+.bottom-box1 {
+    text-align: center;
+    background-color: slateblue;
+    height: 100px;
+    margin: 0px auto 50px;
+    padding: 20px;
+    width: 400px;
+}
+
 #block {
   display: inline-block;
   position: relative;
