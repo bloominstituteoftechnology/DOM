@@ -1,36 +1,47 @@
 html {
-        margin: 0;
-        padding: 0;
 }
 body { 
-	font: 75% georgia, sans-serif;
-	line-height: 1.88889;
-	color: #555753; 
-	background: #fff url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right; 
-	margin: 0; 
-	padding: 0;
+  font-family: 'Helvetica', 'Arial', 'sans-serif';
+  text-align: center;
 }
 p { 
-	margin-top: 0; 
-	text-align: justify;
 }
-h3 { 
-	font: italic normal 1.4em georgia, sans-serif;
-	letter-spacing: 1px; 
-	margin-bottom: 0; 
-	color: #7D775C;
+h1, h3, h5 { 
+  font-family: 'Helvetica', 'Arial', 'sans-serif';
+  color: #ffffff;
+  text-align: center;
+  font-weight: 400;
 }
-a:link { 
-	font-weight: bold; 
-	text-decoration: none; 
-	color: #B7A5DF;
+.Navbar {
 }
-a:visited { 
-	font-weight: bold; 
-	text-decoration: none; 
-	color: #D4CDDC;
+.WhiteSection {
+  background-color: #ffffff;
+  color: #767676;
 }
-a:hover, a:focus, a:active { 
-	text-decoration: underline; 
-	color: #9685BA;
+.OffWhiteSection {
+}
+.FatWhiteRectangle {
+}
+.BlueGuy {
+  background: #428fbb;
+}
+.WhiteRectangle {
+}
+.BluePicture {
+  background: #428fbb;
+}
+.BlackSection {
+}
+
+.ShortWhiteRectangle {
+}
+.FatWhiteRectangle {
+}
+.BlueGirl {
+  background: #428fbb;
+}
+.SolidBlueSection {
+  background: #428fbb;
+}
+.OffWhiteFooter {
 }
