@@ -38,9 +38,9 @@ li {
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 25px 25px 0px rgba(0,0,0,0.4);
   padding: 12px 16px;
-  z-index: 1;
+  z-index: .5;
 }
 .dropdown:hover .dropdown-content {
   display: block;
@@ -81,6 +81,7 @@ section {
   padding: 100px;
 }
 #first-box1 {
+  cursor: pointer;
   opacity: .7;
   padding: 20px;
   color: white;
@@ -89,7 +90,7 @@ section {
 .first-container-end {
   height: 75px;
   max-height: 100px;
-  background: lightgreen;
+  background: #33aa33;
   width: 100%;
 }
 
@@ -116,10 +117,12 @@ section {
   margin: 0px 0px 200px 0px;
 }
 #second-box1 {
+  cursor: pointer;
   padding: 30px;
   background-color: #ddbbbb;
 }
 #second-leftBox {
+  cursor: pointer;
   float: left;
   width: 50%;
   height: 100%;
@@ -128,6 +131,7 @@ section {
 }
 
 #second-rightBox {
+  cursor: pointer;
   float: right;
   width: 50%;
   height: 100%;
@@ -145,6 +149,7 @@ section {
 
 /* THIRD CONTAINER */
 #third-box1 {
+  cursor: pointer;
   padding: 30px;
   background-color: #ddbbdd;
   text-align: center;
