@@ -8,7 +8,7 @@ nav {
   height: 50px;
   max-height: 100px;
   background: lightblue;
-  padding: 20px;
+  padding: 20px 0px;
 }
 ul {
   list-style-type: none;/* Removes list buttons */
@@ -57,8 +57,19 @@ section {
   height: 100%; /* height percentage relative to containing div */
   width: 100%;
 }
+.box1 {
+    /*text-align: center;*/
+    background-color: slateblue;
+    height: 33%;
+    margin: 0px auto 30%;
+    width: 400px;
+}
 
 /* TOP FIRST CONTAINER */
+.first-main-container {
+  height: 800px; /* height percentage relative to containing div */
+  width: 100%;
+}
 #first-container {
   background-image: url('https://lambdaschool.com/assets/img/background.jpg');
   background-size: cover;
@@ -69,17 +80,11 @@ section {
   text-align: center;
   padding: 100px;
 }
-.box1 {
-    /*text-align: center;*/
-    background-color: slateblue;
-    height: 33%;
-    margin: 0px auto 30%;
-    width: 400px;
-}
 #first-box1 {
   opacity: .7;
   padding: 20px;
   color: white;
+  background-color: #6666ff;
 }
 .first-container-end {
   height: 75px;
@@ -96,12 +101,19 @@ section {
 }
 
 /* SECOND CONTAINER */
+.second-main-container {
+  height: 100%; /* height percentage relative to containing div */
+  width: 100%;
+}
 #second-container {
-  padding: 100px 0px 0px 0px;
+  padding: 90px 0px 0px 0px;
   background-color: #ddddee;
 }
 .second-container-center {
   padding: 100px;
+}
+.special-sauce{
+  margin: 0px 0px 200px 0px;
 }
 #second-box1 {
   padding: 30px;
@@ -129,6 +141,30 @@ section {
   max-height: 100px;
   background: lightgreen;
   width: 100%;
+}
+
+/* THIRD CONTAINER */
+#third-box1 {
+  padding: 30px;
+  background-color: #ddbbdd;
+  text-align: center;
+}
+#third-leftBox {
+  float: left;
+  width: 50%;
+  height: 100%;
+  background-color: #bbddbb;
+  /*margin: 0px, 0px, 300px, 0px;*/
+}
+
+#third-rightBox {
+  float: right;
+  width: 50%;
+  height: 100%;
+  background-color: #bbbbdd;
+  /*padding: 0px, 30px, 0px, 10px;*/
+  border-color: whitesmoke;
+  border-left-width: 50px;
 }
 
 /* NEXT CONTAINERS */
