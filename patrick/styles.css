@@ -49,6 +49,10 @@ li {
 }
 
 /* BODY */
+section {
+  height: 100%; /* height percentage relative to containing div */
+  width: 100%;
+}
 .main-container {
   height: 100%; /* height percentage relative to containing div */
   width: 100%;
@@ -61,24 +65,29 @@ li {
   /*background-repeat: no-repeat;
   background-position: center center;*/
 }
-style.background-image {
-  height: 10px;
-  width: 10px;
-  max-width: 100%;
-  max-height: 100%;
+.first-container-center {
+  text-align: center;
+  padding: 100px;
 }
-.container-center {
-  /*text-align: center;*/
-}
-
 .box1 {
-    text-align: center;
+    /*text-align: center;*/
     background-color: slateblue;
     height: 33%;
     margin: 0px auto 30%;
-    padding: 20px;
     width: 400px;
 }
+#first-box1 {
+  opacity: .7;
+  padding: 20px;
+  color: white;
+}
+.first-container-end {
+  height: 75px;
+  max-height: 100px;
+  background: lightgreen;
+  width: 100%;
+}
+
 .main-container-end {
   height: 75px;
   max-height: 100px;
@@ -86,7 +95,47 @@ style.background-image {
   width: 100%;
 }
 
-/* NEXT CONTAINER */
+/* SECOND CONTAINER */
+#second-container {
+  padding: 100px 0px 0px 0px;
+  background-color: #ddddee;
+}
+.second-container-center {
+  padding: 100px;
+}
+#second-box1 {
+  padding: 30px;
+  background-color: #ddbbbb;
+}
+#second-leftBox {
+  float: left;
+  width: 50%;
+  height: 100%;
+  background-color: #bbddbb;
+  /*margin: 0px, 0px, 300px, 0px;*/
+}
+
+#second-rightBox {
+  float: right;
+  width: 50%;
+  height: 100%;
+  background-color: #bbbbdd;
+  /*padding: 0px, 30px, 0px, 10px;*/
+  border-color: whitesmoke;
+  border-left-width: 50px;
+}
+.second-container-end {
+  height: 75px;
+  max-height: 100px;
+  background: lightgreen;
+  width: 100%;
+}
+
+/* NEXT CONTAINERS */
+.container-center {
+  /*text-align: center;*/
+  /*padding: 100px;*/
+}
 
 #leftBox {
   float: left;
@@ -105,6 +154,7 @@ style.background-image {
   border-color: whitesmoke;
   border-left-width: 50px;
 }
+
 
 /* FOOTER */
 
