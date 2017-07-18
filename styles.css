@@ -9,14 +9,25 @@ body {
   width: 100%;
 }
 
-.left {
+ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: hotpink;
+}
+
+li {
+    float: left;
+}
+
+/* .left {
   float: left;
   text-decoration: none;
   width: 50px;
   height: 30px;
   hover: pointer;
-  /*   background: blue; */
-}
+     background: blue; */
+/* }  */
 
 .navbar-list li {
   /*   float: left; */
@@ -52,6 +63,22 @@ body {
 .container-center {
   text-align: center;
 }
+
+.box1 {
+    text-align: center;
+    background-color: slateblue;
+    height: 100px;
+    margin: 0px auto 300px;
+    padding: 20px;
+    width: 400px;
+}
+
+.main-container-end {
+  height: 75px;
+  max-height: 100px;
+  background: lightgreen;
+  width: 100%;
+
 
 .footer {
   height: 75px;
