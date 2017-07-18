@@ -31,8 +31,20 @@ body {
   margin: 5px;
 }
 
-.container-center {
-  text-align: center;
+.box1 {
+    text-align: center; 
+    background-color: slateblue;
+    height: 100px;
+    margin: 0px auto 300px;
+    padding: 20px;
+    width: 400px;
+}
+ 
+.main-container-end {
+  height: 75px;
+  max-height: 100px;
+  background: lightgreen;
+  width: 100%;
 }
 
 .footer {
