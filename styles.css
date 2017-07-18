@@ -85,6 +85,15 @@ li {
     width: 400px;
 }
 
+#block2 {
+  display: inline-block;
+  position: relative;
+  height: 250px;
+  width: 300px;
+  margin: 10px 20px 50px;
+  background-color: slategray;
+}
+
 .main-container-end {
   height: 75px;
   max-height: 100px;
