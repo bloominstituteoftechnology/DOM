@@ -1,69 +1,144 @@
- <!-- replicate https://lambdaschool.com/ -->
-
+ <!-- replicate https://lambdaschool.com/ LAYOUT -->
 <!DOCTYPE html>
-
 <html>
-  <head>
+  <!-- HEAD -->
+  <head lang="en">
+    <meta charset="utf-8">
+    <title>λ University - DOM</title>
+    <meta name="description" content="λ Lambda University Pair Programming 3 The Domain Object Model">
+    <meta name="author" content="John Wells and Patrick Kennedy">
+    <!-- CREATIVE STYLE SHEET LINK -->
     <link type= "text/css" rel= "stylesheet" href= "styles.css"/>
   </head>
+  <!-- BODY -->
   <body>
-
-    <div class="navbar">
-      <ul>
-      <li><a href="#home">Home</a></li>
-      <li class="dropdown">
-      <a href="" class="dropbtn">Dropdown</a>
-    <div class="dropdown-content">
-      <a href="#">Link 1</a>
-      <a href="#">Link 2</a>
-      <a href="#">Link 3</a>
-    </div>
-  </li>
-</ul>
-      <!-- <ul class="navbar-list">
-        <li class='left'>list item 1</li>
-        <li class='left'>list item 2</li>
-      </ul> -->
-    </div>
-
+  <!-- NAVIGATION BAR -->
+    <nav class="navbar">
+      <ul class="navUL">
+        <li class="navlist"><a class="navbar-brand" href="https://www.lambdascool.com">λ School</a></li>
+        <li class="navlist">
+          <div class="dropdown">
+            <span>COURSES</span>
+            <div class="dropdown-content">
+              <ul>
+                <li><a href="#">View ALL</a></li>
+                <li><p>L.S. Courses:</p></li>
+                <li><a href="#">A.I. & M.L.</a></li>
+                <li><a href="#">Web development</a></li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="navlist">BLOG</li>
+        <li class="navlist">CONTACT</li>
+        <li class="navlist">APPLY</li>
+      </ul>
+    </nav>
+    <!--TOP FIRST CONTAINER -->
     <div class="main-container">
     </div>
-
     <div class="container-center">
       <div class="box1">
-      <h2>Top-rated computer science program</h2>
-      <p>A rigorous software engineering & computer science academy</p>
+      <h2>The Computer Science Education of the Future</h2>
+      <p>Immersive preparation for the world's most in-demand careers for as little as $0 until you're hired</p>
       </div>
     </div>
-
     <div class="main-container-end">
-    </div class="main-container-end">
-
-<!-- REPEATING BOXES -->
-
-    <!-- <div class="navbar">
-      <ul class="navbar-list">
-        <li class='left'>list item 1</li>
-        <li class='left'>list item 2</li>
-      </ul>
-    </div> -->
-
+    </div>
+    <!-- SECOND CONTAINER -->
+    <div class="container-center">
+      <div class="box1">
+        <h2>A New Model for Higher Education</h2>
+        <p>Lambda School invests in a small number of ambitious individuals by training them for the world's most in-demand careers.</p>
+        <p>In exchange, Lambda School graduates pay back a small percentage of their salary after they are hired.</p>
+      </div>
+      <div class="main-container">
+        <div id="leftBox">LEFT
+          <h4>Selection</h4>
+          <p>Applicants run through a battery of tests and interviews designed to identify those with the greatest aptitude for a highly technical career.</p>
+        </div>
+        <div id="rightBox">RIGHT
+          <h4>Selection</h4>
+          <p>Applicants run through a battery of tests and interviews designed to identify those with the greatest aptitude for a highly technical career.</p>
+        </div>
+      </div>
+    </div>
+    <div class="main-container-end">
+    </div>
+    <!-- THIRD CONTAINER -->
     <div class="main-container">
       <div id="leftBox">LEFT</div>
       <div id="rightBox">RIGHT</div>
     </div>
-
     <div class="container-center">
       <div class="box1">
-      <h2>A Program Unlike Any Other</h2>
-      <p>During the next 6 months...</p>
+        <h2>A Program Unlike Any Other</h2>
+        <p>During the next 6 months...</p>
       </div>
     </div>
+    <div class="main-container-end">
+    </div>
+    <!-- FOURTH CONTAINER -->
+    <div class="main-container">
+      <div id="leftBox">LEFT</div>
+      <div id="rightBox">RIGHT</div>
+    </div>
+    <div class="container-center">
+      <div class="box1">
+        <h2>A Program Unlike Any Other</h2>
+        <p>During the next 6 months...</p>
+      </div>
+    </div>
+    <div class="main-container-end">
+    </div>
+    <!-- FIFTH CONTAINER -->
+    <div class="main-container">
+      <div id="leftBox">LEFT</div>
+      <div id="rightBox">RIGHT</div>
+    </div>
+    <div class="container-center">
+      <div class="box1">
+        <h2>A Program Unlike Any Other</h2>
+        <p>During the next 6 months...</p>
+      </div>
+    </div>
+    <div class="main-container-end">
+    </div>
+    <!-- BLACK BAR - SIXTH CONTAINER -->
+    <div class="main-container">
+      <div id="leftBox">LEFT</div>
+      <div id="rightBox">RIGHT</div>
+    </div>
+    <div class="container-center">
+      <div class="box1">
+        <h2>A Program Unlike Any Other</h2>
+        <p>During the next 6 months...</p>
+      </div>
+    </div>
+    <div class="main-container-end">
+    </div>
+    <!-- REPEATING BOXES -->
+    <!-- <img src="MLP.jpg" alt="Did someone say 'PONIES'???"> -->
+    <div class="container-center">
+      <div class="bottom-box">
+        <h2>Tuition</h2>
+      </div>
+    </div>    
+    <div class="bottom-container">
+      <div id="block">0 up-front</div>
+      <div id="block">10k up-front</div>
+      <div id="block">20k up-front</div>
+    </div>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <ul>
+        <li><a href="#home">Careers</a></li>
+        <li><a href="#home">Courses</a></li>
+        <li><a href="#home">Contact</a></li>
+      </ul>
+    </footer class="footer">
 
-    <div class="footer">
-    </div class="footer">
-
-
+    <!-- JAVASCRIPT LINK -->
     <script src="app.js"></script>
   </body>
 </html>
