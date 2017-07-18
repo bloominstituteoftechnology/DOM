@@ -1,69 +1,121 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  height: 100vh;
+  opacity: .50;
+  z-index: 10;
+}
+
 .home {
-    height: 100vh;
-    background: url(images/background.jpg) no-repeat center center fixed;
+  height: 100vh;
+  background: url(images/background.jpg) no-repeat center center fixed;
+  z-index: 2;
 }
 .nav {
-    background-color:blue;
-    opacity: .75
+  height: 100vh;
+  background-color: navy;
+  opacity: .75;
+}
+.logo {
+  max-height: 25px;
 }
 h1:first-of-type {
-    text-align: center;
-    color: white;
-    
+  text-align: center;
+  color: white;
+
 }
 p:first-of-type {
-    text-align: center;
-    color: white;
+  text-align: center;
+  color: white;
 }
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: blue;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: navy;
+  border-bottom: 1px solid whitesmoke;
 }
 
 li {
-    float: left;
+  float: left;
+}
+.same-size {
+  padding-bottom: 0;
 }
 
 li a, .dropbtn {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 20px 15px;
-    text-decoration: none;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 20px 15px;
+  text-decoration: none;
+  min-height: 30px;
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-    background-color: gray;
+  color: grey;
 }
 
 li.dropdown {
-    display: inline-block;
+  display: inline-block;
 }
 
 .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 350px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 350px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
 }
 
 .dropdown-content a {
-    color: black;
-    padding: 10px 13px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
+  color: black;
+  padding: 10px 13px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
 }
 
 .dropdown-content a:hover {
-  background-color: blue
+  color: grey;
 }
 
 .dropdown:hover .dropdown-content {
-    display: block;
+  display: block;
+}
+.intro {
+ padding-top: 100px;
+}
+
+.main-heading {
+  font-size: 4em;
+}
+
+.sub-heading {
+  color: white;
+  font-size: 2em;
+  font-weight: lighter;
+}
+.sub-heading span {
+  font-weight: bold;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  margin-left: 25px;
+  border: 1px solid white;
+}
+
+button.primary {
+  background-color: white;
+  color: blue;
+}
+button.secondary {
+  background-color: transparent;
+  color: white;
 }
