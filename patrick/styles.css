@@ -160,6 +160,7 @@ section {
   justify-content: space-around;
   /*justify-content: center;*/
   width: 100%;
+  text-align: center;
 }
 .third-leftBox {
   width: 200px;
@@ -202,13 +203,26 @@ section {
   height: 300px;
   width: 100%;
 }
-#block2 {
+.block2 {
   display: inline-block;
   position: relative;
   height: 250px;
   width: 300px;
   margin: 10px 20px 50px;
   background-color: slategray;
+  background-size: cover;
+}
+#one {
+  background-image: url('http://images.mylittlefacewhen.com/media/f/rsz/mlfw3077_large.jpg');
+}
+#two {
+  background-image: url('https://media.ents24network.com/image/000/049/561/c2ca0f79d782f77a7f423a003dcce018c70d2a77.jpg');
+}
+#three {
+  background-image: url('https://i.ytimg.com/vi/Q6ctb-Pb3lc/hqdefault.jpg');
+}
+#four {
+  background-image: url('http://img0068.psstatic.com/120898315_amazoncom-dora-waving-dora-the-explorer-life-size-.jpg');
 }
 
 /* FIFTH CONTAINER */
