@@ -2,19 +2,27 @@ body, html {
   margin: 0;
   padding: 0;
 }
-h1 {
-    color: gray;
-}
 p{
     color: gray;
 }
+.hide{
+    display:none;
+}
 .left {
     float:left;
-    width: 50%;
+    width: 40%;
+    display: inline-block;
+    padding-right: 20px;
 }
 .right {
     float:right;
-    width: 50%;
+    width: 40%;
+    display: inline-block;
+}
+.page-content {
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
 }
 .wrapper {
   height: 100vh;
@@ -28,6 +36,25 @@ p{
   height: 100vh;
   background: url(images/background.jpg) no-repeat center center fixed;
   z-index: 2;
+}
+.page {
+    height: 100vh;
+    font-size: 1.4375em;
+    background-color: whitesmoke;
+}
+.same-height{
+    height: 500px;
+    width: 47%
+}
+.left-image{
+    background: url(images/istock1blue.jpg);
+    
+    height: 100vh;
+    width: 40%;
+    float: left;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 .nav {
   height: 100vh;
