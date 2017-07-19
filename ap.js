@@ -10,6 +10,5 @@ window.onscroll = function() {
     document.getElementById("move").style.paddingTop = "0px";
     document.getElementById("color").style.backgroundColor = "navy";
     document.getElementById("nav").style.opacity = ".75";
-
   }
 }
