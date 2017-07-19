@@ -17,7 +17,6 @@ ul {
   background-color: hotpink;
   margin: 0px;
   padding: 10px;
-  /*overflow: hidden;*/
   width: 35%;
   height: 50%;
 }
@@ -61,7 +60,7 @@ section {
     /*text-align: center;*/
     background-color: slateblue;
     height: 33%;
-    /*margin: 0px auto 30%;*/
+    margin: 0px auto 30%;
     width: 400px;
 }
 
@@ -80,7 +79,9 @@ section {
   text-align: center;
   padding: 100px;
 }
-#first-box1 {
+.first-box1 {
+  width: 400px;
+  margin: 0px auto 30%;
   cursor: pointer;
   opacity: .7;
   padding: 20px;
@@ -116,7 +117,9 @@ section {
 .special-sauce{
   margin: 0px 0px 200px 0px;
 }
-#second-box1 {
+.second-box1 {
+  width: 400px;
+  margin: 0px auto;
   cursor: pointer;
   padding: 30px;
   background-color: #ddbbbb;
@@ -148,13 +151,17 @@ section {
 }
 
 /* THIRD CONTAINER */
-#third-box1 {
+.third-main-container {
+  height: 100%; /* height percentage relative to containing div */
+  width: 100%;
+}
+.third-box1 {
   cursor: pointer;
   padding: 30px;
   background-color: #ddbbdd;
   text-align: center;
 }
-#third-leftBox {
+.third-leftBox {
   float: left;
   width: 50%;
   height: 100%;
@@ -171,6 +178,16 @@ section {
   border-color: whitesmoke;
   border-left-width: 50px;
 }
+.third-container-end {
+  height: 75px;
+  max-height: 100px;
+  background: lightgreen;
+  width: 100%;
+}
+
+
+
+
 
 /* NEXT CONTAINERS */
 .container-center {
@@ -204,4 +221,8 @@ section {
   max-height: 100px;
   background: salmon;
   width: 100%;
+}
+.footer li {
+  float: left;
+  margin: 0 5px;
 }
