@@ -1,7 +1,6 @@
 /* replicate https://lambdaschool.com/ LAYOUT */
 html, body {
   background-color: whitesmoke;
-  /*padding-top: 5px;*/
 }
 
 /* NAVIGATION BAR */
@@ -10,7 +9,6 @@ nav {
   height: 100px;
   max-height: 100px;
   background: lightblue;
-  /*padding: 20px 0px;*/
 }
 .lambda-brand {
   text-align: center;
@@ -60,9 +58,8 @@ li {
 
 /* TOP FIRST CONTAINER */
 section {
-
 }
-/*THIS ALSO WORK FOR BGIMG IN HTML
+/*THIS ALSO WORK FOR B.G. IMG IN HTML
 <section class="main-container" style="background-image: url('https://lambdaschool.com/assets/img/background.jpg')">*/
 .first-main-container {
   height: 600px; /* height percentage relative to containing div */
@@ -93,9 +90,8 @@ section {
 
 /* SECOND CONTAINER */
 .second-main-container {
-  height: 100%; /* height percentage relative to containing div */
+  height: 100%;
   width: 100%;
-  /*padding: 20px 0px 0px 0px;*/
   background-color: #ddddee;
 }
 .second-container-center {
@@ -119,7 +115,6 @@ section {
   width: 100%;
   height: 200px;
   justify-content: center;
-  /*background-color: lightgrey;*/
 }
 .flex-item-left {
   text-align: left;
@@ -130,7 +125,6 @@ section {
   cursor: pointer;
 }
 .flex-item {
-  /*background-color: cornflowerblue;*/
   width: 100px;
   height: 50px;
   margin: 10px;
@@ -171,18 +165,13 @@ section {
   width: 200px;
   height: 100%;
   background-color: #bbddbb;
-  /*margin: 0px, 0px, 300px, 0px;*/
 }
 .third-rightBox {
   width: 200px;
   height: 100%;
   background-color: #bbbbdd;
-  /*padding: 0px, 30px, 0px, 10px;*/
-  /*border-color: whitesmoke;
-  border-left-width: 50px;*/
 }
 .third-filler {
-
   padding: 30px;
   background-color: #whitesmoke;
 }
@@ -202,12 +191,12 @@ section {
   text-align: center;
 }
 .bottom-box1 {
-    text-align: center;
-    background-color: slateblue;
-    height: 100px;
-    margin: 0px auto 50px;
-    padding: 20px;
-    width: 400px;
+  text-align: center;
+  background-color: slateblue;
+  height: 100px;
+  margin: 0px auto 50px;
+  padding: 20px;
+  width: 400px;
 }
 .main-container {
   height: 300px;
@@ -224,12 +213,12 @@ section {
 
 /* FIFTH CONTAINER */
 .box1 {
-    text-align: center;
-    background-color: slateblue;
-    height: 100px;
-    margin: 0px auto 300px;
-    padding: 20px;
-    width: 400px;
+  text-align: center;
+  background-color: slateblue;
+  height: 100px;
+  margin: 0px auto 300px;
+  padding: 20px;
+  width: 400px;
 }
 .main-container-end {
   height: 75px;
@@ -239,31 +228,30 @@ section {
 }
 
 
+/* ############################### */
 
 
 /* NEXT CONTAINERS */
-
-
-#leftBox {
+.leftBox {
   float: left;
   width: 50%;
   height: 100%;
   background-color: purple;
-  /*margin: 0px, 10px, 0px, 30px;*/
 }
-
-#rightBox {
+.rightBox {
   float: right;
   width: 50%;
   height: 100%;
   background-color: green;
-  /*padding: 0px, 30px, 0px, 10px;*/
   border-color: whitesmoke;
   border-left-width: 50px;
 }
 
-/* FOOTER */
 
+/* ############################### */
+
+
+/* FOOTER */
 .footer {
   height: 75px;
   max-height: 100px;
