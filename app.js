@@ -1,1 +1,1 @@
-// replicate https://lambdaschool.com/
+// replicate https://lambdaschool.com/ LAYOUT
