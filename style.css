@@ -1,0 +1,172 @@
+body, html {
+  margin: 0;
+  padding: 0;
+}
+p{
+    color: gray;
+}
+#hide {
+  visibility: hidden;
+}
+.navi {
+  position: fixed;
+  top: 0;
+}
+.left {
+    float:left;
+    width: 40%;
+    display: inline-block;
+    padding-right: 20px;
+}
+.right {
+    float:right;
+    width: 40%;
+    display: inline-block;
+}
+.page-content {
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.wrapper {
+  height: 100vh;
+  opacity: ;
+  z-index: 10;
+}
+.center {
+  text-align: center;
+}
+.home {
+  height: 100vh;
+  background: url(images/background.jpg) no-repeat center center fixed;
+  z-index: 2;
+}
+.page {
+    height: 100vh;
+    font-size: 1.4375em;
+    background-color: whitesmoke;
+}
+.same-height{
+    height: 500px;
+    width: 47%
+}
+.left-image{
+    background: url(images/istock1blue.jpg);
+
+    height: 100vh;
+    width: 40%;
+    float: left;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#move {
+  /*position: fixed;
+  padding-top: 200px;*/
+  width: 100%;
+}
+#nav {
+  height: 100vh;
+  background-color: navy;
+  opacity: .75;
+  z-index: 1000;
+}
+.logo {
+  max-height: 25px;
+}
+.lead{
+  text-align: center;
+  color: white;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: navy;
+  border-bottom: 1px solid whitesmoke;
+}
+#color {
+  background-color:;
+}
+
+li {
+  float: left;
+}
+.same-size {
+  padding-bottom: 0;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 20px 15px;
+  text-decoration: none;
+  min-height: 30px;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  color: grey;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 350px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 13px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  color: grey;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.intro {
+ padding-top: 100px;
+}
+
+.main-heading {
+  font-size: 4em;
+}
+
+.sub-heading {
+  color: white;
+  font-size: 2em;
+  font-weight: lighter;
+}
+.sub-heading span {
+  font-weight: bold;
+}
+
+button {
+  width: 200px;
+  height: 50px;
+  margin-left: 25px;
+  border: 1px solid white;
+}
+
+button.primary {
+  background-color: white;
+  color: blue;
+}
+button.secondary {
+  background-color: transparent;
+  color: white;
+}
