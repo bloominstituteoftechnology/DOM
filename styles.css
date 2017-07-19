@@ -215,7 +215,7 @@ section {
   background-size: cover;
   background-position: 50%;
   /* margin: 0px, 10px, 0px, 30px; */
-} 
+}
 
 #rightBox4 {
   float: right;
@@ -255,7 +255,7 @@ section {
 }
 #middle-box5 {
   display: inline-block;
-  position: relative; 
+  position: relative;
   height: 250px;
   width: 370px;
   top: 50%;
@@ -297,6 +297,85 @@ section {
   margin: 10px;
   cursor: pointer;
 }
+
+
+/* SIXTH CONTAINER */
+.sixth-container-center {
+  text-align: center;
+}
+.sixth-box1 {
+  text-align: center;
+  background-color: slateblue;
+  height: 100px;
+  margin: 0px auto 50px;
+  padding: 20px;
+  width: 400px;
+}
+.sixth-main-container {
+  height: 300px;
+  width: 100%;
+}
+.block6 {
+  display: inline-block;
+  position: relative;
+  height: 250px;
+  width: 300px;
+  margin: 10px 20px 50px;
+  background-color: slategray;
+  background-size: cover;
+}
+#one {
+  background-image: url('http://images.mylittlefacewhen.com/media/f/rsz/mlfw3077_large.jpg');
+}
+#two {
+  background-image: url('https://media.ents24network.com/image/000/049/561/c2ca0f79d782f77a7f423a003dcce018c70d2a77.jpg');
+}
+#three {
+  background-image: url('https://i.ytimg.com/vi/Q6ctb-Pb3lc/hqdefault.jpg');
+}
+#four {
+  background-image: url('http://img0068.psstatic.com/120898315_amazoncom-dora-waving-dora-the-explorer-life-size-.jpg');
+}
+
+/* SEVENTH CONTAINER */
+/* FIFTH CONTAINER */
+.seventh-main-container-end {
+  height: 75px;
+  max-height: 100px;
+  background: lightgreen;
+  width: 100%;
+}
+.box7 {
+  text-align: center;
+  background-color: slateblue;
+  height: 100px;
+  margin: 0px auto 300px;
+  padding: 20px;
+  width: 400px;
+}
+.sixth-container-center {
+  text-align: center;
+}
+.block7 {
+  display: inline-block;
+  position: relative;
+  height: 250px;
+  width: 300px;
+  margin: 10px 20px 50px;
+  background-color: slategray;
+  background-size: cover;
+}
+.seventh-container-end {
+  display: inline-block;
+  opacity:.5;
+  height: 25px;
+  max-height: 100px;
+  background: salmon;
+  width: 100%;
+}
+
+
+
 
 /* FOOTER */
 
