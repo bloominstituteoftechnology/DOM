@@ -138,6 +138,7 @@ li .Dropdown {
   cursor: pointer;
 }
 .OffWhiteSection {
+  background-color: #f4f4f4;
 }
 .FatWhiteRectangle {
 }
@@ -153,7 +154,15 @@ li .Dropdown {
   -webkit-column-span: all;
   column-span: all;
 }
+.ContainerCourses {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 .WhiteRectangle {
+  background-color: white;
+  flex: 0 1 auto;
 }
 .BluePicture {
   background: #428fbb;
