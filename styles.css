@@ -374,7 +374,21 @@ section {
   width: 100%;
 }
 
-
+/* INTERCOM */
+.intercom {
+  height: 180px;
+  width: 320px;
+  display: inline-block;
+  position: fixed;
+  /*z-index: 1;*/
+  bottom: 0;
+  right: 0;
+  float: right;
+  margin: 0px 5% 5% 0px;
+  /*background-color: slategray;*/
+  background-size: cover;
+  background-image: url('https://i.ytimg.com/vi/LEtv2LuDjhg/maxresdefault.jpg');
+}
 
 
 /* FOOTER */
