@@ -7,7 +7,16 @@ body {
 div {
   display: block;
 }
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
 p { 
+  font-size: 1.4375em;
+  line-height: 1.41304348em;
+  display: block;
 }
 h1, h2, h3, h5 { 
   font-family: 'Helvetica', 'Arial', 'sans-serif';
@@ -20,7 +29,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: transparent;
+  background-color: #428fbb;
 }
 li {
   float: left;
@@ -134,6 +143,15 @@ li .Dropdown {
 }
 .BlueGuy {
   background: #428fbb;
+}
+#ANewModel {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+}
+#ModelSpan {
+  -webkit-column-span: all;
+  column-span: all;
 }
 .WhiteRectangle {
 }
