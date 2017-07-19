@@ -1,3 +1,4 @@
+/* replicate https://lambdaschool.com/ LAYOUT */
 html, body {
   background-color: whitesmoke;
   /*padding-top: 5px;*/
@@ -193,14 +194,55 @@ section {
 }
 
 
+/* ############################### */
+
+
+/* FOURTH CONTAINER */
+.container-center {
+  text-align: center;
+}
+.bottom-box1 {
+    text-align: center;
+    background-color: slateblue;
+    height: 100px;
+    margin: 0px auto 50px;
+    padding: 20px;
+    width: 400px;
+}
+.main-container {
+  height: 300px;
+  width: 100%;
+}
+#block2 {
+  display: inline-block;
+  position: relative;
+  height: 250px;
+  width: 300px;
+  margin: 10px 20px 50px;
+  background-color: slategray;
+}
+
+/* FIFTH CONTAINER */
+.box1 {
+    text-align: center;
+    background-color: slateblue;
+    height: 100px;
+    margin: 0px auto 300px;
+    padding: 20px;
+    width: 400px;
+}
+.main-container-end {
+  height: 75px;
+  max-height: 100px;
+  background: lightgreen;
+  width: 100%;
+}
+
 
 
 
 /* NEXT CONTAINERS */
-.container-center {
-  /*text-align: center;*/
-  /*padding: 100px;*/
-}
+
 
 #leftBox {
   float: left;
@@ -218,12 +260,6 @@ section {
   /*padding: 0px, 30px, 0px, 10px;*/
   border-color: whitesmoke;
   border-left-width: 50px;
-}
-.main-container-end {
-  height: 75px;
-  max-height: 100px;
-  background: lightgreen;
-  width: 100%;
 }
 
 /* FOOTER */
