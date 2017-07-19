@@ -22,7 +22,15 @@ h1, h2, h3, h5 {
   font-family: 'Helvetica', 'Arial', 'sans-serif';
   color: #ffffff;
   text-align: center;
-  font-weight: 400;
+  font-weight: 600;
+}
+h3 {
+  font-size: 1.4375em;
+  line-height: 1.625em;
+}
+h4 {
+  font-size: 1.4375em;
+  line-height: 1.41304348em;
 }
 ul {
   list-style-type: none;
@@ -145,12 +153,12 @@ li .Dropdown {
 .BlueGuy {
   background: #428fbb;
 }
-#ANewModel {
+#ANewModel, #RiskFree {
   -webkit-column-count: 2;
   -moz-column-count: 2;
   column-count: 2;
 }
-#ModelSpan {
+#ModelSpan, #RiskSpan {
   -webkit-column-span: all;
   column-span: all;
 }
@@ -165,9 +173,22 @@ li .Dropdown {
   flex: 0 1 auto;
 }
 .BluePicture {
-  background: #428fbb;
+  background: url(assets/img/istock1blue.jpg);
+  flex: 1 1 auto;
+}
+.ContainerSkills {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+}
+#Skills {
+  flex: 2 1 auto;
 }
 .BlackSection {
+  background-color: black;
+  color: white;
 }
 
 .ShortWhiteRectangle {
