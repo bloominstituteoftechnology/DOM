@@ -5,8 +5,12 @@ body, html {
 p{
     color: gray;
 }
-.hide{
-    display:none;
+#hide {
+  visibility: hidden;
+}
+.navi {
+  position: fixed;
+  top: 0;
 }
 .left {
     float:left;
@@ -26,7 +30,7 @@ p{
 }
 .wrapper {
   height: 100vh;
-  opacity: .50;
+  opacity: ;
   z-index: 10;
 }
 .center {
@@ -48,7 +52,7 @@ p{
 }
 .left-image{
     background: url(images/istock1blue.jpg);
-    
+
     height: 100vh;
     width: 40%;
     float: left;
@@ -56,10 +60,16 @@ p{
     background-position: center;
     background-repeat: no-repeat;
 }
-.nav {
+#move {
+  /*position: fixed;
+  padding-top: 200px;*/
+  width: 100%;
+}
+#nav {
   height: 100vh;
   background-color: navy;
   opacity: .75;
+  z-index: 1000;
 }
 .logo {
   max-height: 25px;
@@ -75,6 +85,9 @@ ul {
   overflow: hidden;
   background-color: navy;
   border-bottom: 1px solid whitesmoke;
+}
+#color {
+  background-color:;
 }
 
 li {
