@@ -1,0 +1,22 @@
+{
+  "name": "ls-dom",
+  "version": "1.0.0",
+  "description": "### What is the DOM? - Read this first: https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bdurb/LS-DOM.git"
+  },
+  "author": "Ryan <ryanbsherrill@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bdurb/LS-DOM/issues"
+  },
+  "homepage": "https://github.com/bdurb/LS-DOM#readme",
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
