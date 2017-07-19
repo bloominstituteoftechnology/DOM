@@ -9,7 +9,6 @@ nav {
   height: 100px;
   max-height: 100px;
   background: lightblue;
-  /*padding: 20px 0px;*/
 }
 .lambda-brand {
   text-align: center;
@@ -59,7 +58,6 @@ li {
 
 /* TOP FIRST CONTAINER */
 section {
-
 }
 /*THIS ALSO WORK FOR BGIMG IN HTML
 <section class="main-container" style="background-image: url('https://lambdaschool.com/assets/img/background.jpg')">*/
@@ -94,7 +92,6 @@ section {
 .second-main-container {
   height: 100%; /* height percentage relative to containing div */
   width: 100%;
-  /*padding: 20px 0px 0px 0px;*/
   background-color: #ddddee;
 }
 .second-container-center {
@@ -118,7 +115,6 @@ section {
   width: 100%;
   height: 200px;
   justify-content: center;
-  /*background-color: lightgrey;*/
 }
 .flex-item-left {
   text-align: left;
@@ -129,7 +125,6 @@ section {
   cursor: pointer;
 }
 .flex-item {
-  /*background-color: cornflowerblue;*/
   width: 100px;
   height: 50px;
   margin: 10px;
@@ -181,7 +176,6 @@ section {
   padding: 30px;
   background-color: whitesmoke;
 }
-
 .third-container-end {
   opacity:.5;
   height: 25px;
@@ -195,13 +189,11 @@ section {
   height: 600px;
   margin-top: 100px;
 }
-
 .fourth-main-container {
   height: 100%; /* height percentage relative to containing div */
   width: 100%;
   background-color: #ddddee;
 }
-
 #leftBox4 {
   float: left;
   width: 25%;
@@ -209,19 +201,15 @@ section {
   background-image: url('https://lambdaschool.com/assets/img/istock1blue.jpg');
   background-size: cover;
   background-position: 50%;
-  /* margin: 0px, 10px, 0px, 30px; */
 }
-
 #rightBox4 {
   float: right;
   width: 75%;
   height: 100%;
   background-color: whitesmoke;
-  /*padding: 0px, 30px, 0px, 10px;*/
   border-color: whitesmoke;
   border-left-width: 50px;
 }
-
 #fourth-box {
   display: inline-block;
   position: relative;
@@ -230,7 +218,6 @@ section {
   margin: 150px 50px 100px 250px;
   background-color: lightgray;
 }
-
 .fourth-container-end {
   display: inline-block;
   opacity:.5;
@@ -240,11 +227,10 @@ section {
   width: 100%;
 }
 
-/* Section 5 */
+/* FIFTH CONTAINER */
 .section5 {
   height: 300px;
 }
-
 .fifth-container-center {
   margin-top: 300px;
 }
@@ -259,7 +245,6 @@ section {
   margin-left: -185px;
   background-color: lightgray;
 }
-
 .container-5 {
   display: flex;
   width: 100%;
@@ -267,7 +252,6 @@ section {
   justify-content: center;
   /*background-color: lightgrey;*/
 }
-
 .flex-item-left-5 {
   text-align: left;
   background-color: #dddde0;
@@ -276,14 +260,11 @@ section {
   margin: 10px;
   cursor: pointer;
 }
-
 .flex-item-5 {
-  /*background-color: cornflowerblue;*/
   width: 100px;
   height: 150px;
   margin: 10px;
 }
-
 .flex-item-right-5 {
   text-align: right;
   background-color: #dddde0;
@@ -292,7 +273,6 @@ section {
   margin: 10px;
   cursor: pointer;
 }
-
 
 /* SIXTH CONTAINER */
 .sixth-container-center {
@@ -333,7 +313,6 @@ section {
 }
 
 /* SEVENTH CONTAINER */
-/* FIFTH CONTAINER */
 .seventh-main-container-end {
   height: 75px;
   max-height: 100px;
@@ -392,7 +371,6 @@ section {
 
 
 /* FOOTER */
-
 .footer {
   height: 75px;
   max-height: 100px;
@@ -400,7 +378,6 @@ section {
   background: salmon;
   width: 100%;
 }
-
 .footer li {
   float: left;
   margin: 0 5px;
