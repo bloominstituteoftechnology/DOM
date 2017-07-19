@@ -1,6 +1,6 @@
+/* replicate https://lambdaschool.com/ LAYOUT */
 html, body {
   background-color: whitesmoke;
-  /*padding-top: 5px;*/
 }
 
 /* NAVIGATION BAR */
@@ -9,7 +9,6 @@ nav {
   height: 100px;
   max-height: 100px;
   background: lightblue;
-  /*padding: 20px 0px;*/
 }
 .lambda-brand {
   text-align: center;
@@ -59,9 +58,8 @@ li {
 
 /* TOP FIRST CONTAINER */
 section {
-
 }
-/*THIS ALSO WORK FOR BGIMG IN HTML
+/*THIS ALSO WORK FOR B.G. IMG IN HTML
 <section class="main-container" style="background-image: url('https://lambdaschool.com/assets/img/background.jpg')">*/
 .first-main-container {
   height: 600px; /* height percentage relative to containing div */
@@ -92,9 +90,8 @@ section {
 
 /* SECOND CONTAINER */
 .second-main-container {
-  height: 100%; /* height percentage relative to containing div */
+  height: 100%;
   width: 100%;
-  /*padding: 20px 0px 0px 0px;*/
   background-color: #ddddee;
 }
 .second-container-center {
@@ -118,7 +115,6 @@ section {
   width: 100%;
   height: 200px;
   justify-content: center;
-  /*background-color: lightgrey;*/
 }
 .flex-item-left {
   text-align: left;
@@ -129,7 +125,6 @@ section {
   cursor: pointer;
 }
 .flex-item {
-  /*background-color: cornflowerblue;*/
   width: 100px;
   height: 50px;
   margin: 10px;
@@ -165,23 +160,19 @@ section {
   justify-content: space-around;
   /*justify-content: center;*/
   width: 100%;
+  text-align: center;
 }
 .third-leftBox {
   width: 200px;
   height: 100%;
   background-color: #bbddbb;
-  /*margin: 0px, 0px, 300px, 0px;*/
 }
 .third-rightBox {
   width: 200px;
   height: 100%;
   background-color: #bbbbdd;
-  /*padding: 0px, 30px, 0px, 10px;*/
-  /*border-color: whitesmoke;
-  border-left-width: 50px;*/
 }
 .third-filler {
-
   padding: 30px;
   background-color: #whitesmoke;
 }
@@ -193,31 +184,55 @@ section {
 }
 
 
+/* ############################### */
 
 
-
-/* NEXT CONTAINERS */
+/* FOURTH CONTAINER */
 .container-center {
-  /*text-align: center;*/
-  /*padding: 100px;*/
+  text-align: center;
+}
+.bottom-box1 {
+  text-align: center;
+  background-color: slateblue;
+  height: 100px;
+  margin: 0px auto 50px;
+  padding: 20px;
+  width: 400px;
+}
+.main-container {
+  height: 300px;
+  width: 100%;
+}
+.block2 {
+  display: inline-block;
+  position: relative;
+  height: 250px;
+  width: 300px;
+  margin: 10px 20px 50px;
+  background-color: slategray;
+  background-size: cover;
+}
+#one {
+  background-image: url('http://images.mylittlefacewhen.com/media/f/rsz/mlfw3077_large.jpg');
+}
+#two {
+  background-image: url('https://media.ents24network.com/image/000/049/561/c2ca0f79d782f77a7f423a003dcce018c70d2a77.jpg');
+}
+#three {
+  background-image: url('https://i.ytimg.com/vi/Q6ctb-Pb3lc/hqdefault.jpg');
+}
+#four {
+  background-image: url('http://img0068.psstatic.com/120898315_amazoncom-dora-waving-dora-the-explorer-life-size-.jpg');
 }
 
-#leftBox {
-  float: left;
-  width: 50%;
-  height: 100%;
-  background-color: purple;
-  /*margin: 0px, 10px, 0px, 30px;*/
-}
-
-#rightBox {
-  float: right;
-  width: 50%;
-  height: 100%;
-  background-color: green;
-  /*padding: 0px, 30px, 0px, 10px;*/
-  border-color: whitesmoke;
-  border-left-width: 50px;
+/* FIFTH CONTAINER */
+.box1 {
+  text-align: center;
+  background-color: slateblue;
+  height: 100px;
+  margin: 0px auto 300px;
+  padding: 20px;
+  width: 400px;
 }
 .main-container-end {
   height: 75px;
@@ -226,8 +241,31 @@ section {
   width: 100%;
 }
 
-/* FOOTER */
 
+/* ############################### */
+
+
+/* NEXT CONTAINERS */
+.leftBox {
+  float: left;
+  width: 50%;
+  height: 100%;
+  background-color: purple;
+}
+.rightBox {
+  float: right;
+  width: 50%;
+  height: 100%;
+  background-color: green;
+  border-color: whitesmoke;
+  border-left-width: 50px;
+}
+
+
+/* ############################### */
+
+
+/* FOOTER */
 .footer {
   height: 75px;
   max-height: 100px;
