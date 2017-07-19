@@ -12,12 +12,14 @@
     <!-- CREATIVE STYLE SHEET LINK -->
     <link type= "text/css" rel= "stylesheet" href= "styles.css"/>
   </head>
+
   <!-- BODY -->
   <body>
+
   <!-- NAVIGATION BAR -->
     <nav>
+      <a class="lambda-brand" href="https://www.lambdascool.com">λ School</a>
       <ul class="navUL">
-        <li class="navlist"><a class="navbar-brand" href="https://www.lambdascool.com">λ School</a></li>
         <li class="navlist">
           <div class="dropdown">
             <span>COURSES</span>
@@ -38,21 +40,20 @@
     </nav>
 
     <!--TOP FIRST CONTAINER -->
-    <!-- <section class="main-container" style="background-image: url('https://lambdaschool.com/assets/img/background.jpg')"> -->
-    <section class="first-main-container" id="first-container" alt="You can be an awesome programmer!">
+    <section class="first-main-container" alt="You can be an awesome programmer!">
       <div class="first-container-center">
         <div class='first-box1'>
           <h1>The Computer Science Education of the Future</h1>
           <strong>Immersive preparation for the world's most in-demand careers for as little as $0 until you're hired</strong>
         </div>
       </div>
-    </section>
     <div class="first-container-end">
-      FIRST CONTAINER END
+      <p>FIRST CONTAINER END</p>
     </div>
+    </section>
 
     <!-- SECOND CONTAINER -->
-    <section class="second-main-container" id="second-container">
+    <section class="second-main-container">
       <div class="second-container-center">
         <div class='second-box1'>
           <h1>A New Model for Higher Education</h1>
@@ -61,17 +62,21 @@
           <p>In exchange, Lambda School graduates pay back a small
             percentage of their salary after they are hired.</p>
         </div>
+        <div class="filler2"></div>
         <div class="special-sauce">
-          <div id="second-leftBox">LEFT
-            <h4>Selection</h4>
-            <p>Applicants run through a battery of tests and interviews designed
-              to identify those with the greatest aptitude for a highly technical career.</p>
-          </div>
-          <div id="second-rightBox">RIGHT
-            <h4>Training</h4>
-            <p>Once students are selected, a small class undergoes live,
-              intensive online training designed to meet the rigorous demands of our hiring partners.</p>
-          </div>
+          <flex class="container">
+            <div class='flex-item-left'>FLEX
+              <h4>Selection</h4>
+              <p>Applicants run through a battery of tests and interviews designed
+                to identify those with the greatest aptitude for a highly technical career.</p>
+            </div>
+            <div class='flex-item'></div>
+            <div class='flex-item-right'>BOX
+              <h4>Training</h4>
+              <p>Once students are selected, a small class undergoes live,
+                intensive online training designed to meet the rigorous demands of our hiring partners.</p>
+            </div>
+          </flex>
         </div>
       </div>
       <div class="second-container-end">
@@ -80,40 +85,43 @@
     </section>
 
     <!-- THIRD CONTAINER -->
-    <section>
-      <div>
-        <div class="third-main-container">
-          <div class='third-box1'>
+    <section class="section3">
+        <div>
+          <div class='third-title'>
             <h1>Lambda School Courses</h1>
           </div>
-          <div class="third-leftBox">
-            <h3>COMPUTER SCIENCE ACADEMY</h3>
-            <p>6 months (full-time)<br>
-            Web & Software Engineering</p>
-            <p>$0 up-front<br>
-            + 17% of salary for 2 yrs</p>
-            <p>(or $20,000 up-front)</p>
-            <button>LEARN MORE</button>
-          </div>
-          <div id="third-rightBox">
-            <h3>MACHINE LEARNING & A.I. ACADEMY</h3>
-            <p>6 months (full-time)<br>
-            Machine & Deep Learning</p>
-            <p>$0 up-front<br>
-            + 17% of salary for 2 yrs</p>
-            <p>(or $20,000 up-front)</p>
-            <button>LEARN MORE</button>
+          <flex class="container3">
+            <div class="third-leftBox">
+              <h3>COMPUTER SCIENCE ACADEMY</h3>
+              <p>6 months (full-time)<br>
+              Web & Software Engineering</p>
+              <p>$0 up-front<br>
+              + 17% of salary for 2 yrs</p>
+              <p>(or $20,000 up-front)</p>
+              <button>LEARN MORE</button>
+            </div>
+            <div class="third-rightBox">
+              <h3>MACHINE LEARNING & A.I. ACADEMY</h3>
+              <p>6 months (full-time)<br>
+              Machine & Deep Learning</p>
+              <p>$0 up-front<br>
+              + 17% of salary for 2 yrs</p>
+              <p>(or $20,000 up-front)</p>
+              <button>LEARN MORE</button>
+            </div>
+          </flex>
+          <div class='third-filler'>
           </div>
         </div>
+      <div class="third-container-end">THIRD CONTAINER END
       </div>
     </section>
-    <div class="third-container-end">THIRD CONTAINER END
-    </div>
+
 
 
     <!-- REPEATING BOXES -->
     <div class="container-center">
-      <img src="MLP.jpg" alt="Did someone say 'PONIES'???">
+      <!-- <img src="MLP.jpg" alt="Did someone say 'PONIES'???"> -->
       <div class="box1">
         <h2>A Program Unlike Any Other</h2>
         <p>During the next 6 months...</p>
