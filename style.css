@@ -1,0 +1,143 @@
+body {
+  margin-top: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-container {
+  padding-top: 22px;
+  height: 45px;
+  background-color: black;
+  width: 100%;
+  position: fixed;
+}
+
+.nav-menu-right {
+  margin: 4px, 10px;
+}
+
+.vpf {
+  padding-left: 60px;
+  color: white;
+  display: inline;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header-section {
+  background-color: #428fbb;
+  margin-bottom: 0px;
+}
+
+.bg-image-holder {
+  background-color: #428fbb;
+  margin-bottom: 0px;
+}
+
+span {
+  margin-top: 10px;
+}
+
+.parallax {
+  background-image: url("assets/img/dude-at-table.jpg");
+  height: 1054px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #428fbb;
+  margin-bottom: 0px;
+}
+
+.computer-science-container {
+  text-align: center;
+  padding-top: 450px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  ;
+}
+
+#theh1 {
+  font-size: 64px;
+  font-weight: bold;
+  margin-top: 0px;
+}
+
+#immersive {
+  font-size: 20px;
+}
+
+.button {
+  height: 30px;
+  width: 190px;
+  text-align: center;
+  border: solid 1px;
+  border-color: white;
+  color: white;
+  display: inline-block;
+  padding-top: 14px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 10px;
+}
+
+#appnow {
+  background-color: white;
+  color: #428fbb;
+}
+
+.logo {
+  float: left;
+  padding-left: 40px;
+}
+
+.higher-ed-section {
+  background-color: #f8f8f8;
+  margin: 0px;
+  height: 848px;
+  margin-top: 0px;
+}
+
+#newmodel {
+  padding-top: 50px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 0px;
+}
+
+.info-top {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#invest {
+  text-align: left;
+  line-height: 39px;
+  font-size: 23px;
+  color: #797979;
+}
+
+.selection-left {
+  display: inline-block;
+  width: 300px;
+  line-height: 39px;
+  font-size: 23px;
+  padding-left: 388px;
+  color: #797979;
+}
+
+.sec {
+  color: black !important;
+  font-size: 18px;
+}
+
+.training-right {
+  display: inline-block;
+  width: 300px;
+  line-height: 39px;
+  font-size: 23px;
+  padding-left: 40px;
+  color: #797979;
+}
+
+.courses-section {}
