@@ -27,8 +27,9 @@ a {
   /*margin: 0 auto;*/
   text-align: center;
   border-bottom: 1px solid;
-  background-image: url('https://unsplash.it/1600/1067/?random');
+  background-image: url('img/background.jpg');
   height: 926px;
+  background-repeat: no-repeat;
   background-size: 100%;
   display: flex;
   flex-direction: column;
@@ -39,4 +40,36 @@ a {
 
 .main-text {
   width: 60%;
+  color: #ffffff;
+}
+
+.secondary-text {
+  text-align: center;
+}
+
+.secondary-col {
+  display: flex;
+  justify-content: space-around;
+}
+
+.photo-sidebar {
+  display: flex;
+}
+
+.photo-sidebar img {
+  width: 33%;
+}
+
+.side-text {
+  width: 67%;
+  text-align: center;
+}
+
+.email {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social {
+  display: flex;
 }
