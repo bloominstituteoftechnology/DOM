@@ -1,0 +1,42 @@
+body {
+  font-size: 1.5em;
+  font-family: sans-serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  border-bottom: 1px solid;
+}
+
+ul {
+  display: flex;
+}
+
+ul li {
+  padding: 5px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.main-image-holder {
+  /*margin: 0 auto;*/
+  text-align: center;
+  border-bottom: 1px solid;
+  background-image: url('https://unsplash.it/1600/1067/?random');
+  height: 926px;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.main-text {
+  width: 60%;
+}
