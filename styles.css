@@ -31,8 +31,44 @@ header {
   align-items: center;
   height: 100px;
   border-bottom: 1px solid;
+  background-color: black;
 }
 
+header nav ul li a {
+  color: white;
+  font-size: 16px;
+  margin: 0 10px;
+}
+
+header nav ul li a:hover {
+  background-color: #90b9cc;
+  color: black;
+  box-shadow: 3px 3px 3px #000;
+}
+
+.buttons {
+  display: flex;
+  margin: 140px;
+}
+
+button {
+  background-color: #4CAF50 ; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px;
+  opacity: 0.8;
+}
+
+button:hover {
+  background-color: #90b9cc;
+  color: black;
+  box-shadow: 3px 3px 3px #000;
+}
 
 
 /*****************************
@@ -41,22 +77,21 @@ MAIN
 
 .main-image-holder {
   text-align: center;
-  border-bottom: 1px solid;
   background-image: url('img/background.jpg');
-  height: 926px;
+  max-height: 926px;
   background-repeat: no-repeat;
   background-size: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border-bottom: 1px solid;
 
 }
 
 .main-text {
   width: 60%;
   color: #ffffff;
+  margin-top: 50px;
 }
 
 
@@ -65,15 +100,29 @@ MAIN
 SECONDARY
 *****************************/
 
+.secondary-section {
+  background-color: #e5e9ea;
+  padding: 20px;
+}
+
 .secondary-text {
   text-align: center;
-  border-bottom: 1px solid;
+  width: 80%;
+  margin: auto;
+}
+
+.columns {
+  display: flex;
 }
 
 .secondary-col {
   display: flex;
   justify-content: space-around;
+  flex-direction: column;
+  text-align: left;
+  padding: 20px;
 }
+
 
 
 
@@ -84,15 +133,17 @@ PHOTO SIDEBAR
 .photo-sidebar {
   display: flex;
   border-bottom: 1px solid;
+  height: 500px;
+  align-items: center;
 }
 
 .photo-sidebar img {
-  width: 33%;
+  width: 45%;
 }
 
 .side-text {
-  width: 67%;
-  text-align: center;
+  width: 60%;
+  padding-left: 50px;
 }
 
 
@@ -103,8 +154,17 @@ FOOTER
 .email {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .social {
   display: flex;
 }
+
+.social img {
+  height: 20px;
+  padding: 20px;
+}
+
+
+
