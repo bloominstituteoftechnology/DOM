@@ -1,7 +1,17 @@
+/*******************
+UNIVERSAL
+*******************/
+
 body {
   font-size: 1.5em;
   font-family: sans-serif;
 }
+
+
+
+/*******************
+HEADER
+*******************/
 
 header {
   display: flex;
@@ -23,8 +33,13 @@ a {
   text-decoration: none;
 }
 
+
+
+/*******************
+MAIN
+*******************/
+
 .main-image-holder {
-  /*margin: 0 auto;*/
   text-align: center;
   border-bottom: 1px solid;
   background-image: url('img/background.jpg');
@@ -43,6 +58,12 @@ a {
   color: #ffffff;
 }
 
+
+
+/*******************
+SECONDARY
+*******************/
+
 .secondary-text {
   text-align: center;
 }
@@ -52,18 +73,32 @@ a {
   justify-content: space-around;
 }
 
+
+
+/*******************
+PHOTO SIDEBAR
+*******************/
+
 .photo-sidebar {
   display: flex;
 }
 
 .photo-sidebar img {
-  width: 33%;
+  background-size: cover;
+  position: absolute;
+  background-position: 50% 50%;
+  height: 100%;
 }
 
 .side-text {
   width: 67%;
   text-align: center;
 }
+
+
+/*******************
+FOOTER
+*******************/
 
 .email {
   display: flex;
