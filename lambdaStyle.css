@@ -284,6 +284,10 @@ section p {
   padding: 4em 4em 2em 4em;
   text-align: left;
 }
+#students .studentBox h3 {
+  padding: 1em;
+  margin-top: 1em;
+}
 #topDown {
   background-color: rgb(248, 248, 248);
   float: left;
@@ -360,7 +364,7 @@ section p {
   width: 41%;
   height: 18em;
   display: inline-block;
-  margin: 0 1em;
+  margin: 1em 1em;
 }
 .people p {
   margin: 0;
@@ -393,4 +397,8 @@ section p {
 .appBtn:hover {
 /*----------------- DELETED CURSOR: POINTER ----------------------------*/
   border: solid 2px rgba(255, 255, 255, 1);
+}
+.studentBox {
+  font-size: .8em;
+  margin-left: 15em;
 }
