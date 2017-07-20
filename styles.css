@@ -77,7 +77,10 @@ MAIN
 
 .main-image-holder {
   text-align: center;
-  background-image: url('img/background.jpg');
+  background: linear-gradient(
+      rgba(66, 143, 187, 0.45), 
+      rgba(66, 143, 187, 0.45) ), 
+  url('img/background.jpg');
   max-height: 926px;
   background-repeat: no-repeat;
   background-size: 100%;
@@ -85,7 +88,6 @@ MAIN
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
 }
 
 .main-text {
