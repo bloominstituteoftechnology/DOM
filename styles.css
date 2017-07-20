@@ -1,23 +1,10 @@
-/*******************
+/*****************************
 UNIVERSAL
-*******************/
+*****************************/
 
 body {
   font-size: 1.5em;
   font-family: sans-serif;
-}
-
-
-
-/*******************
-HEADER
-*******************/
-
-header {
-  display: flex;
-  align-items: center;
-  height: 100px;
-  border-bottom: 1px solid;
 }
 
 ul {
@@ -35,9 +22,22 @@ a {
 
 
 
-/*******************
+/*****************************
+HEADER
+*****************************/
+
+header {
+  display: flex;
+  align-items: center;
+  height: 100px;
+  border-bottom: 1px solid;
+}
+
+
+
+/*****************************
 MAIN
-*******************/
+*****************************/
 
 .main-image-holder {
   text-align: center;
@@ -50,6 +50,7 @@ MAIN
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  border-bottom: 1px solid;
 
 }
 
@@ -60,12 +61,13 @@ MAIN
 
 
 
-/*******************
+/*****************************
 SECONDARY
-*******************/
+*****************************/
 
 .secondary-text {
   text-align: center;
+  border-bottom: 1px solid;
 }
 
 .secondary-col {
@@ -75,19 +77,17 @@ SECONDARY
 
 
 
-/*******************
+/*****************************
 PHOTO SIDEBAR
-*******************/
+*****************************/
 
 .photo-sidebar {
   display: flex;
+  border-bottom: 1px solid;
 }
 
 .photo-sidebar img {
-  background-size: cover;
-  position: absolute;
-  background-position: 50% 50%;
-  height: 100%;
+  width: 33%;
 }
 
 .side-text {
@@ -96,9 +96,9 @@ PHOTO SIDEBAR
 }
 
 
-/*******************
+/*****************************
 FOOTER
-*******************/
+*****************************/
 
 .email {
   display: flex;
