@@ -1,0 +1,215 @@
+html {
+}
+body { 
+  font-family: 'Helvetica', 'Arial', 'sans-serif';
+  text-align: center;
+  font-size: 1em;
+  line-height: 1.625em;
+}
+div {
+  display: block;
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+p { 
+  font-size: 1.4375em;
+  line-height: 1.41304348em;
+  display: block;
+}
+h1, h2, h3, h5 { 
+  font-family: 'Helvetica', 'Arial', 'sans-serif';
+  color: #ffffff;
+  text-align: center;
+  font-weight: 600;
+}
+h3 {
+  font-size: 1.4375em;
+  line-height: 1.625em;
+}
+h4 {
+  font-size: 1.4375em;
+  line-height: 1.41304348em;
+}
+h5 {
+  font-size: 1em;
+  line-height: 1.625em;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #428fbb;
+}
+li {
+  float: left;
+}
+li a, .DropBtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover, .Dropdown:hover .DropBtn {
+  color: #767676;
+}
+li .Dropdown {
+  display: inline-block;
+}
+.DropdownContent {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  z-index: 1;
+}
+.DropdownContent a {
+  color: #767676;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+.DropdownContent a:hover {
+  color: white;
+}
+.Dropdown:hover .DropdownContent {
+  display: block;
+}
+.Navbar {
+  height: 65px;
+}
+.CSEdu {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+  color: #fff;
+  line-height: 1.421875em;
+  margin-bottom: 0.40625em;
+  margin-top: 0;
+  z-index: 2;
+}
+.WhiteSection {
+  background-color: #ffffff;
+  color: #767676;
+}
+.button {
+  background-color: white;
+  border: none;
+  color: #428fbb;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 0.625em;
+  line-height: 1.625em;
+  text-transform: uppercase;
+  cursor:pointer;
+}
+.BlueButton {
+  background-color: #428fbb;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 0.625em;
+  line-height: 1.625em;
+  text-transform: uppercase;
+}
+.BlueButton:hover {
+  cursor: pointer;
+}
+.button:hover {
+  cursor: pointer;
+}
+.ViewCourses {
+  background-color: transparent;
+  color:white;
+  border: 1px solid white;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  letter-spacing: 1px;
+  font-weight: 400;
+  font-size: 0.625em;
+  line-height: 1.625em;
+  text-transform: uppercase;
+}
+.ViewCourses:hover {
+  cursor: pointer;
+}
+.OffWhiteSection {
+  background-color: #f4f4f4;
+}
+.FatWhiteRectangle {
+}
+.BlueGuy {
+  background: #428fbb;
+}
+#ANewModel, #RiskFree {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+}
+#ModelSpan, #RiskSpan {
+  -webkit-column-span: all;
+  column-span: all;
+}
+.ContainerCourses, .ContainerFree {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.card1 {
+  background-color: white;
+  margin: 30px;
+  flex: 0 1 auto;
+}
+.card1:hover {
+  cursor: auto;
+}
+.BluePicture {
+  background: url(assets/img/istock1blue.jpg);
+  flex: 1 1 auto;
+}
+.ContainerSkills {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+}
+#Skills {
+  flex: 2 1 auto;
+}
+.BlackSection {
+  background-color: black;
+  color: white;
+}
+
+.ShortWhiteRectangle {
+}
+.FatWhiteRectangle {
+}
+.BlueGirl {
+  background: #428fbb;
+}
+.SolidBlueSection {
+  background: #428fbb;
+}
+.OffWhiteFooter {
+}
