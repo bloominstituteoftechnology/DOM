@@ -26,6 +26,10 @@ a {
 HEADER
 *****************************/
 
+.logo {
+  margin-left: 25px;
+}
+
 header {
   display: flex;
   align-items: center;
@@ -41,9 +45,8 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  background-color: #90b9cc;
-  color: black;
-  box-shadow: 3px 3px 3px #000;
+  color: #aab3f1;
+  font-size: 24px;
 }
 
 .buttons {
@@ -78,8 +81,8 @@ MAIN
 .main-image-holder {
   text-align: center;
   background: linear-gradient(
-      rgba(66, 143, 187, 0.45), 
-      rgba(66, 143, 187, 0.45) ), 
+      rgba(66, 143, 187, 0.45),
+      rgba(66, 143, 187, 0.45) ),
   url('img/background.jpg');
   max-height: 926px;
   background-repeat: no-repeat;
@@ -167,6 +170,3 @@ FOOTER
   height: 20px;
   padding: 20px;
 }
-
-
-
