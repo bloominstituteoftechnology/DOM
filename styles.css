@@ -1,0 +1,314 @@
+body {
+  margin: 0;
+  position: relative;
+}
+
+.main-menu::before {
+  content: "";
+  display: block;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(66, 143, 187, 0.8);
+}
+
+.main-menu {
+  background: url('http://i.imgur.com/XMmG0Pm.jpg');
+  min-height: 100vh;
+  min-width: 100vw;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.navbar {
+  background-color: transparent;
+  position: relative;
+  padding: 8px;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.05);
+}
+
+.menu {
+  display: inline;
+  list-style: none;
+}
+
+.center-menu {
+  margin-bottom: 0.40625em;
+  position: relative;
+  display: inline;
+  text-align: center;
+}
+
+.center-menu>h1 {
+  padding-top: 150px;
+  text-align: center;
+  font-size: 4em;
+  line-height: 1.015625em;
+  font-family: 'Montserrat','Helvetica','Arial',sans-serif;
+  color: white;
+  margin-bottom: 0.40625em;
+  box-sizing: border-box;
+}
+
+.center-menu>p {
+  font-family: 'Lora','Helvetica','Arial',sans-serif;
+  text-align: center;
+  opacity: 0.9;
+  color: #fff;
+  margin-bottom: 1.1304347826087em;
+  font-size: 1.4375em;
+  line-height: 1.69565217em;
+  margin-bottom: 35px;
+}
+
+.mid-left-box {
+  border: 1px solid rgba(255,255,255,0.7);
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 0.625em;
+  letter-spacing: 1px;
+  margin-right: 10px;
+}
+
+.mid-right-box {
+  border: 1px solid rgba(255,255,255,0.7);
+  margin-left: 10px;
+  background-color: #fff;
+  padding-left: 45px;
+  padding-right: 45px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 0.625em;
+  letter-spacing: 1px;
+}
+
+.mid-left-but{
+  opacity: 0.9;
+  color: #fff;
+  display: inline-block;
+  font-family: 'Montserrat','Helvetica','Arial',sans-serif;
+  text-decoration: none;
+  text-align: center;
+}
+
+.mid-right-but {
+  opacity: 0.9;
+  color: #428fbb;
+  display: inline-block;
+  font-family: 'Montserrat','Helvetica','Arial',sans-serif;
+  text-decoration: none;
+  text-align: center;
+}
+
+#logo-img {
+  margin-left: 1px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100px;
+}
+
+.logo {
+  float: left;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+.nav-button {
+  border: none;
+  padding: 15px 13px;
+  /*text-align: center;*/
+  text-decoration: none;
+  display: inline-block;
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: transparent;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+#dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #2B2B2B;
+    /*min-width: 160px;*/
+    z-index: 1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    float: left;
+}
+
+.dropdown-content ul {
+  list-style: none;
+  background: #232323;
+  margin-top: 3px;
+  padding-left: 1.2em;
+  min-width: 16em;
+  display: block;
+  left: 0;
+  margin: 0;
+  white-space: nowrap;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  font-size: 12px;
+    font-family: 'Montserrat','Helvetica','Arial',sans-serif;
+    color: #fff;
+    opacity: 0.5;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    padding: 0 1em 1.3em 1em;
+    padding-left: 0;
+    margin: 0;
+    text-decoration: none;
+    display: inline-block;
+    text-align: left;
+    border: none;
+}
+
+.dropdown-content p {
+  font-family: 'Montserrat','Helvetica','Arial',sans-serif;
+  text-align: left;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  color: #fff;
+  opacity: 0.5;
+  margin-bottom: 1.625em;
+  margin: 0;
+  padding: 0;
+  display: block;
+  -webkit-margin-before: 2em;
+  -webkit-margin-after: 1.5em;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  opacity: 1!important;
+  transition: 0.5s linear;
+  padding-left: .4em;
+}
+
+.nav-button a:hover {
+  opacity: 0.5;
+  transition: 0.15s linear;
+}
+
+/* Show the dropdown menu on hover */
+#dropdown:hover .dropdown-content {
+  display: block;
+  width: 380px;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+#dropdown:hover #dropbtn {
+    background-color: transparent;
+}
+
+#course-button {
+  padding-top: 1.2em;
+}
+
+.menu>li>a {
+  font-family: 'Montserrat','Helvetica','Arial',sans-serif;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.new-model {
+  min-height: 100vh;
+  min-width: 100vw;
+  content: "";
+  display: inline-block;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: #fff;
+  padding-top: 60px;
+}
+
+.model-row>h3 {
+  /*margin-top: 100px;*/
+  margin-bottom: 0.8125em;
+  font-size: 2em;
+  line-height: 1.421875em;
+  font-family: 'Montserrat','Helvetica','Arial',sans-serif;
+  color: #343434;
+  font-weight: 600;
+  font-variant-ligatures: common-ligatures;
+  text-align: center;
+}
+
+.why {
+  font-size: 1.4375em;
+  line-height: 1.69565217em;
+  font-family: 'Lora','Helvetica','Arial',sans-serif;
+  color: #767676;
+  text-align: left;
+  opacity: 0.9;
+  margin-left: 13em;
+  margin-right: 13em;
+  margin-bottom: 2.2em;
+}
+
+.botpart {
+  width: 33.333%;
+  float: left;
+  margin-bottom: 7.2em;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.newone {
+  margin-left: 20%;
+}
+
+#con-h5 {
+  font-family: 'Montserrat','Helvetica','Arial',sans-serif;
+  margin-bottom: 1.625em;
+  font-size: 1em;
+  line-height: 1.625em;
+  color: #343434;
+  font-weight: 600;
+  font-variant-ligatures: common-ligatures;
+}
+
+.botfo {
+  font-size: 1.4375em;
+  line-height: 1.69565217em;
+  font-family: 'Lora','Helvetica','Arial',sans-serif;
+  color: #767676;
+  text-align: left;
+  opacity: 0.9;
+  margin-right: 2em;
+  width: 13em;
+}
