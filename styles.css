@@ -67,8 +67,8 @@ body {
 
 .mid-left-box {
   border: 1px solid rgba(255,255,255,0.7);
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 40px;
+  padding-right: 40px;
   padding-top: 20px;
   padding-bottom: 20px;
   text-transform: uppercase;
@@ -82,8 +82,8 @@ body {
   border: 1px solid rgba(255,255,255,0.7);
   margin-left: 10px;
   background-color: #fff;
-  padding-left: 45px;
-  padding-right: 45px;
+  padding-left: 55px;
+  padding-right: 55px;
   padding-top: 20px;
   padding-bottom: 20px;
   text-transform: uppercase;
