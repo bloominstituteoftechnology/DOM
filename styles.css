@@ -112,7 +112,7 @@ SECONDARY
 
 .secondary-text {
   text-align: center;
-  width: 80%;
+  width: 60%;
   margin: auto;
 }
 
@@ -138,17 +138,18 @@ PHOTO SIDEBAR
 .photo-sidebar {
   display: flex;
   border-bottom: 1px solid;
-  height: 500px;
+  min-height: 500px;
   align-items: center;
 }
 
 .photo-sidebar img {
-  width: 45%;
+  width: auto;
+  max-height: 800px;
 }
 
 .side-text {
-  width: 60%;
-  padding-left: 50px;
+  width: 70%;
+  /*padding-left: 50px;*/
 }
 
 
