@@ -1,0 +1,299 @@
+/* replicate https://lambdaschool.com/ LAYOUT */
+html, body {
+  background-color: whitesmoke;
+}
+
+/* NAVIGATION BAR */
+nav {
+  width: 100%;
+  height: 100px;
+  max-height: 100px;
+  background: lightblue;
+}
+.lambda-brand {
+  text-align: center;
+  float: left;
+  background-color: black;
+  margin: 0px 0px 0px 0px;
+  padding: 10px;
+  width: 5%;
+  height: 50%;
+}
+ul {
+  list-style-type: none;/* Removes list buttons */
+}
+.navUL {
+  background-color: hotpink;
+  margin: 0px;
+  padding: 10px;
+  width: 35%;
+  height: 50%;
+}
+li {
+  margin: 0px 0px;
+}
+.navlist {
+  float: left;
+  margin: 15px 2px;
+  background-color: yellowgreen;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  box-shadow: 0px 25px 25px 0px rgba(0,0,0,0.4);
+  padding: 12px 16px;
+  z-index: .5;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, .625)!important;
+}
+
+/* TOP FIRST CONTAINER */
+section {
+}
+/*THIS ALSO WORK FOR B.G. IMG IN HTML
+<section class="main-container" style="background-image: url('https://lambdaschool.com/assets/img/background.jpg')">*/
+.first-main-container {
+  height: 600px; /* height percentage relative to containing div */
+  width: 100%;
+  background-image: url('https://lambdaschool.com/assets/img/background.jpg');
+  background-size: cover;
+}
+.first-container-center {
+  text-align: center;
+  padding-top: 100px;
+}
+.first-box1 {
+  width: 400px;
+  margin: 0% 30%;
+  cursor: pointer;
+  opacity: .7;
+  padding: 20px;
+  color: white;
+  background-color: #6666ff;
+}
+.first-container-end {
+  opacity:.5;
+  height: 75px;
+  background: #33aa33;
+  width: 100%;
+  margin-top: 255px;
+}
+
+/* SECOND CONTAINER */
+.second-main-container {
+  height: 100%;
+  width: 100%;
+  background-color: #ddddee;
+}
+.second-container-center {
+  padding: 50px 0px 0px 0px;
+}
+.second-box1 {
+  width: 400px;
+  margin: 0px auto;
+  cursor: pointer;
+  padding: 10px;
+  background-color: #ddbbbb;
+}
+.filler2 {
+  height: 100px;
+}
+.special-sauce{
+  margin: 0px 0px 100px 0px;
+}
+.container {
+  display: flex;
+  width: 100%;
+  height: 200px;
+  justify-content: center;
+}
+.flex-item-left {
+  text-align: left;
+  background-color: #dddde0;
+  width: 400px;
+  height: 100%;
+  margin: 10px;
+  cursor: pointer;
+}
+.flex-item {
+  width: 100px;
+  height: 50px;
+  margin: 10px;
+}
+.flex-item-right {
+  text-align: right;
+  background-color: #dddde0;
+  width: 400px;
+  height: 100%;
+  margin: 10px;
+  cursor: pointer;
+}
+.second-container-end {
+  height: 35px;
+  max-height: 100px;
+  background: lightgreen;
+  width: 100%;
+}
+
+/* THIRD CONTAINER */
+.section3 {
+  height: 400px
+  background-color: #ee00ee;
+}
+.third-title {
+  cursor: pointer;
+  padding: 30px;
+  text-align: center;
+  margin: 0 auto;
+}
+.container3 {
+  display: flex;
+  justify-content: space-around;
+  /*justify-content: center;*/
+  width: 100%;
+  text-align: center;
+}
+.third-leftBox {
+  width: 200px;
+  height: 100%;
+  background-color: #bbddbb;
+}
+.third-rightBox {
+  width: 200px;
+  height: 100%;
+  background-color: #bbbbdd;
+}
+.third-filler {
+  padding: 30px;
+  background-color: #whitesmoke;
+}
+.third-container-end {
+  height: 75px;
+  max-height: 100px;
+  background: lightgreen;
+  width: 100%;
+}
+
+
+/* ############################### */
+
+
+/* FOURTH CONTAINER */
+.container-center {
+  text-align: center;
+}
+.bottom-box1 {
+  text-align: center;
+  background-color: slateblue;
+  height: 100px;
+  margin: 0px auto 50px;
+  padding: 20px;
+  width: 400px;
+}
+.main-container {
+  height: 300px;
+  width: 100%;
+}
+.block2 {
+  display: inline-block;
+  position: relative;
+  height: 250px;
+  width: 300px;
+  margin: 10px 20px 50px;
+  background-color: slategray;
+  background-size: cover;
+}
+#one {
+  background-image: url('http://images.mylittlefacewhen.com/media/f/rsz/mlfw3077_large.jpg');
+}
+#two {
+  background-image: url('https://media.ents24network.com/image/000/049/561/c2ca0f79d782f77a7f423a003dcce018c70d2a77.jpg');
+}
+#three {
+  background-image: url('https://i.ytimg.com/vi/Q6ctb-Pb3lc/hqdefault.jpg');
+}
+#four {
+  background-image: url('http://img0068.psstatic.com/120898315_amazoncom-dora-waving-dora-the-explorer-life-size-.jpg');
+}
+
+/* FIFTH CONTAINER */
+.box1 {
+  text-align: center;
+  background-color: slateblue;
+  height: 100px;
+  margin: 0px auto 300px;
+  padding: 20px;
+  width: 400px;
+}
+.main-container-end {
+  height: 75px;
+  max-height: 100px;
+  background: lightgreen;
+  width: 100%;
+}
+
+
+/* ############################### */
+
+
+/* NEXT CONTAINERS */
+.leftBox {
+  float: left;
+  width: 50%;
+  height: 100%;
+  background-color: purple;
+}
+.rightBox {
+  float: right;
+  width: 50%;
+  height: 100%;
+  background-color: green;
+  border-color: whitesmoke;
+  border-left-width: 50px;
+}
+
+
+/* ############################### */
+
+/* INTERCOM */
+.intercom-wrapper {
+  height: 250px;
+  width: 320px;
+  margin: 0px 5% 5% 0px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+.int-com-text {
+  background-color: whitesmoke;
+  opacity: .7;
+}
+.intercom {
+  height: 180px;
+  width: 320px;
+  display: inline-block;
+  background-size: cover;
+  background-image: url('https://i.ytimg.com/vi/LEtv2LuDjhg/maxresdefault.jpg');
+}
+
+
+/* FOOTER */
+.footer {
+  height: 75px;
+  max-height: 100px;
+  background: salmon;
+  width: 100%;
+}
+.footer li {
+  float: left;
+  margin: 0 5px;
+}
