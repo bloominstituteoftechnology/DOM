@@ -1,0 +1,462 @@
+
+body {
+    padding: 0px;
+    margin: 0px;
+}
+ .navbar-default {
+    background: none;
+    height: 70px;
+} 
+.nav a {
+    color: white !important;
+}
+.nav a:hover {
+    color: rgba(255, 255, 255, 0.5) !important;
+}
+.nav li {
+    padding-top: 8px;
+}
+
+/* ------------dropdown menu----------------- */
+.dropdown {
+    float: left;
+    cursor: pointer;
+    font-size: 15px;
+    color: white;
+    padding: 15px 16px;
+}
+.dropdown a:hover {
+    text-decoration: none;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #232323;
+    min-width: 250px;
+    height: 300px;
+    padding: 15px;
+}
+.show {
+    display: block;
+}
+
+.dropdown-content a {
+    font-size: 12px;
+    float: none;
+    color:white;
+    padding: 10px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    -webkit-transition: -webkit-transform 1s;
+    transition: transform 1s;
+}
+.dropdown-content a:hover {
+    transform: translate(15px, 0px);
+}
+/* --------------------Banner------------------------- */
+.jumbotron {
+    height: 638px;
+    background: url("https://lambdaschool.com/assets/img/background.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+    background-attachment: fixed;
+}
+.cover {
+    margin-top: -47px;
+    padding: 0px;
+    height: 638px;
+    background-color: rgba(66,143,187, 0.7);
+}
+.jumbotron .container {
+    color: white;
+    text-align: center;
+    width: 90%;
+    padding-top: 150px;
+}
+.jumbotron h1 {
+    font-weight: 800;
+}
+.jumbotron p {
+    width: 50%;
+    margin: auto;
+    font-family: serif;
+    font-size: 28px;
+    margin-top: 30px;
+}
+.jumbotron .container span {
+    font-weight: 800;
+}
+.jumbotron .buttons {
+    text-align: center;
+    width: 40%;
+    margin: 30px auto;
+}
+.jumbotron .btn1, .row12 button {
+    font-size: 12px;
+    color: white;
+    padding: 15px 60px;
+    border: 1px solid #ffffff;
+    background: transparent;
+}
+.jumbotron .btn2 {
+    font-size: 12px;
+    color: #428fbb;
+    padding: 15px 70px;
+    border: 1px solid #ffffff;
+    background: white;
+    margin-left: 30px;
+}
+/* ------------------Section 1----------------- */
+.row1 {
+    background-color: #F8F8F8;
+    height: 650px;
+}
+.row1 .container {
+    width: 70%;
+    padding: 50px 0px;
+}
+.row1 h1, .row2 h1, .row4 h1, .row6 h1, .row10 h1, .row11 h1 {
+    text-align: center;
+    font-weight: 800;
+    padding-bottom: 40px;
+}
+.row1 p {
+    font-size: 28px;
+    color: grey;
+    font-family: serif;
+}
+.row1 h3 {
+    font-weight: 800;
+}
+.row1-A {
+    max-width: 45%;
+    float: left;
+}
+.row1-B {
+    float: right;
+    max-width: 45%;
+}
+
+/* ------------------Section 2----------------- */
+.row2 {
+    background-color: #f4f4f4;
+    padding: 70px 30px;
+}
+.row2-box {
+    background-color: white;
+    width: 500px;
+    height: 450px;
+    transition: box-shadow 1s;
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 2.5em;
+    padding: 30px 0px;
+}
+.row2-box:hover {
+    box-shadow: 10px 10px 10px #999999;
+}
+.row2 .box-left {
+    float: left;
+    margin-left: 50px;
+}
+.row2 .box-right {
+    float: right;
+    margin-right: 50px;
+}
+.row2 .btn{
+    border-radius: 0px;
+    border: none;
+    padding: 15px 50px;
+    margin-top: 20px;
+}
+
+/* ---------------Section 3------------------ */
+.row3 {
+    height: 734px;
+    background-color: #f8f8f8;
+}
+.row3 .image {
+    height: 734px;
+    background: url("https://lambdaschool.com/assets/img/istock1blue.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.row3 .text {
+    font-size: 26px;
+    width: 60%;
+    margin: 230px auto;
+    padding-left: 150px;
+}
+.row3 h2 {
+    font-weight: 800;
+    font-size: 23px;
+}
+.row3 p {
+    font-family: serif;
+    color: gray;
+    padding-top: 30px;
+}
+
+/* ----------------------Section 4---------------------------------- */
+.row4 {
+    background-color: #F8F8F8;
+    height: 650px;
+}
+.row4 .container {
+    width: 70%;
+    padding: 50px 0px;
+}
+.row4 p {
+    font-size: 28px;
+    color: grey;
+    font-family: serif;
+    text-align: center;
+}
+.row4 h3 {
+    font-weight: 800;
+    font-size: 18px;
+    text-align: center;
+}
+.row4-A {
+    max-width: 45%;
+    float: left;
+}
+.row4-B {
+    float: right;
+    max-width: 45%;
+}
+
+/* ----------------------Section 5---------------------- */
+.row5 {
+    height: 400px;
+    background-color: #232323;
+    color: white;
+    padding: 100px 300px 100px 100px;
+}
+.row5 p {
+    font-family: serif;
+    font-size: 26px;
+    padding-top: 30px;
+}
+
+/* -------------------------Section 6------------------------- */
+.row6 {
+   background: #f8f8f8;
+   padding: 70px; 
+}
+.panel-footer h4 {
+    font-weight: 800;
+    line-height: 2.5em;
+}
+.panel-footer p {
+    font-family: serif;
+    color: grey;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+.row6 .panel {
+    border: none;
+}
+
+/* ---------------Section 7------------------ */
+.row7 {
+    height: 903px;
+    background-color: #f8f8f8;
+}
+.row7 .image {
+    height: 903px;
+    background: url("https://lambdaschool.com/assets/img/istock6blue.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.row7 .text {
+    font-size: 26px;
+    width: 50%;
+    margin: 230px auto;
+    padding: 0px 100px;
+}
+.row7 h2 {
+    font-weight: 800;
+    font-size: 23px;
+}
+.row7 p {
+    font-family: serif;
+    color: gray;
+    padding-top: 30px;
+}
+
+/* ------------------Section 8----------------- */
+.row8 {
+    background-color: #f4f4f4;
+    padding: 70px 30px;
+}
+.row8-box {
+    background-color: white;
+    width: 500px;
+    height: 150px;
+    transition: box-shadow 1s;
+    padding: 30px;
+}
+.row8 h1 {
+    font-size: 23px;
+    font-weight: 800;
+    padding-bottom: 40px;
+    padding-left: 100px;
+}
+.row8 h3 {
+    font-size: 16px;
+    font-weight: 800;
+}
+.row8 p {
+    font-family: serif;
+    font-size: 18px;
+    color: grey;
+    font-style: italic;
+}
+.row8-box:hover {
+    box-shadow: 10px 10px 10px #999999;
+}
+.row8 .box-left {
+    float: left;
+    margin-left: 100px;
+}
+.row8 .box-right {
+    float: right;
+    margin-right: 100px;
+}
+
+/* ---------------Section 9------------------ */
+.row9 {
+    height: 766px;
+    background-color: #f8f8f8;
+}
+.row9 .image {
+    height: 766px;
+    background: url("https://lambdaschool.com/assets/img/istock5blue.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.row9 .text {
+    font-size: 26px;
+    width: 50%;
+    margin: 175px auto;
+    padding: 0px 100px;
+}
+.row9 h2 {
+    font-weight: 800;
+    font-size: 23px;
+}
+.row9 p {
+    font-family: serif;
+    color: gray;
+    padding-top: 30px;
+}
+
+/* -------------------------Section 10------------------------- */
+.row10 {
+   background: #f8f8f8;
+   padding: 70px; 
+}
+.panel-footer h4 {
+    font-weight: 800;
+    line-height: 2.5em;
+}
+.panel-footer p {
+    font-family: serif;
+    color: grey;
+    font-size: 18px;
+    line-height: 1.5em;
+}
+.row10 .panel {
+    border: none;
+}
+
+/* ---------------------Section 11------------------- */
+.row11 {
+    height: 638px;
+    background: url("https://lambdaschool.com/assets/img/istock4blue.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 200px;
+    color: white;
+}
+.row11 h1 {
+    font-size: 40px;
+    padding: 0px;
+}
+.row11 p {
+    font-size: 26px;
+    font-family: serif;
+    padding: 0px;
+}
+.row11-box {
+    background-color: rgba(255, 255, 255, 0.3);
+    width: 500px;
+    height: 350px;
+    padding: 30px;
+}
+.row11 .box-left {
+    float: left;
+    margin-left: 180px;
+}
+.row11 .box-right {
+    float: right;
+    margin-right: 180px;
+}
+.row11 h3 {
+    text-align: center;
+    font-weight: 800;
+    font-size: 18px;
+}
+.row11 .row {
+    margin-top: 50px;
+}
+
+/* -----------------Section 12-------------------- */
+.row12 {
+    height: 280px;
+    background-color: #428FBB;
+    color: white;
+    text-align: center;
+}
+.row12 .container {
+    padding-top: 120px;
+}
+.row12 h2{
+    display: inline-block;
+    padding-right: 50px;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+/* --------------------------Footer------------------- */
+.footer {
+    height: 300px;
+}
+.footer-nav{
+    margin-top: 100px;
+    display: flex;
+}
+.footer-nav {
+    list-style: none;
+}
+.footer-nav li{
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 800;
+    color: grey;
+    margin-right: 50px;
+}
+.footer-nav .icons {
+    display: flex;
+    position: absolute;
+    right: 0;
+}
+.fa {
+    color: grey;
+    padding: 0px;
+    margin: 0px;
+}
