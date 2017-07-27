@@ -1,0 +1,247 @@
+/*****************************
+UNIVERSAL
+*****************************/
+
+
+
+body {
+  font-size: 1.5em;
+  font-family: 'Montserrat','Helvetica','Arial', sans-serif;
+  position: relative;
+  margin: 0;
+}
+
+ul {
+  display: flex;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+
+}
+
+a:hover {
+  color: #c1c1c7;
+  /*margin-left: 5px;*/
+  /*font-size: 1em;*/
+}
+
+
+
+/*****************************
+HEADER
+*****************************/
+
+.logo {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #6094b4;
+}
+
+header {
+  background: linear-gradient(
+      rgba(66, 143, 187, 0.45),
+      rgba(66, 143, 187, 0.45) ),
+  url('img/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  max-height: 850px;
+}
+
+
+
+header img {
+  /*display: inline-block;*/
+  margin-left: 15px;
+}
+
+.nav-links a {
+  color: white;
+  font-size: 16px;
+  transition: .2s ease-out;
+}
+
+.nav-links a:hover {
+  color: #c1c1c7;
+  /*margin-left: 5px;*/
+  text-shadow: 1px 1px 3px #000;
+  /*font-size: 0.8em;*/
+}
+
+.dropdown-parent {
+  position: relative;
+}
+
+/*.dropdown-menu {
+  visibility: hidden;
+  opacity: 0;
+  left: 0;
+  transform: translateY(-2em);
+  z-index: -1;
+  transition: all 0.3s ease-in-out 0s,
+              visibility 0s linear 0.3s,
+              z-index 0s linear 0.01s;
+}*/
+
+.dropdown-menu {
+  position: absolute;
+  top: 177%;
+  padding: 0;
+  margin: 0;
+  z-index: 1;
+  color: white;
+  /*transform: translateY(0%);
+  transition-delay: 0s, 0s, 0.3s;*/
+  /* this removes the transition delay so
+  the menu will be visible while the other
+  styles transition */
+  display: none;
+  background-color: #000;
+  height: 300px;
+  width: 300px;
+  text-align: left;
+}
+
+/*.dropdown-menu li {
+  margin: 0;
+}*/
+
+header nav ul li,
+.dropdown-menu h5 {
+  margin-left: 6%;
+}
+
+.buttons {
+  display: flex;
+  margin: 140px;
+}
+
+button {
+  background-color: #4CAF50 ; /* Green */
+  border: none;
+  color: rgb(203, 209, 236);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px;
+  opacity: 0.8;
+  transition: 0.5s ease-out;
+}
+
+button:hover {
+  background-color: #3d8b40;
+  color: #ffffff;
+  box-shadow: 3px 3px 3px #000;
+  font-size: 0.8em;
+}
+
+/*****************************
+MAIN
+*****************************/
+
+.main-image-holder {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.main-text {
+  width: 60%;
+  color: #ffffff;
+  margin-top: 50px;
+}
+
+.main-text h1 {
+  font-size: 3em;
+}
+
+
+
+/*****************************
+SECONDARY
+*****************************/
+
+.secondary-text {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+.columns {
+  display: flex;
+}
+
+.secondary-col {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: left;
+  padding: 20px;
+}
+
+
+
+
+/*****************************
+PHOTO SIDEBAR
+*****************************/
+
+.photo-sidebar {
+  display: flex;
+  border-bottom: 1px solid;
+  min-height: 500px;
+  align-items: center;
+}
+
+.photo-sidebar img {
+  max-height: 800px;
+  margin-left: -500px;
+}
+
+.side-text {
+  padding: 150px;
+}
+
+
+/*****************************
+FOOTER
+*****************************/
+
+.footer-nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 400px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+}
+
+.left a {
+  margin-left: 20px;
+}
+
+.social {
+  display: flex;
+}
+
+.social img {
+  height: 20px;
+  padding: 20px;
+}
+
+  #email {
+  margin: 20px;
+}
