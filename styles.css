@@ -60,17 +60,50 @@ header img {
   margin-left: 15px;
 }
 
-header nav ul li a {
+.nav-links a {
   color: white;
   font-size: 16px;
-  transition: .5s ease-out;
+  transition: .2s ease-out;
 }
 
-header nav ul li a:hover {
+.nav-links a:hover {
   color: #c1c1c7;
   /*margin-left: 5px;*/
   text-shadow: 1px 1px 3px #000;
-  font-size: 0.8em;
+  /*font-size: 0.8em;*/
+}
+
+.dropdown-parent {
+  position: relative;
+}
+
+.dropdown-menu {
+  visibility: hidden; /* hides sub-menu */
+  opacity: 0;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  transform: translateY(-2em);
+  z-index: -1;
+  transition: all 0.3s ease-in-out 0s,
+              visibility 0s linear 0.3s,
+              z-index 0s linear 0.01s;
+}
+
+.dropdown-menu {
+  visibility: hidden; /* shows sub-menu */
+  opacity: 1;
+  z-index: 1;
+  transform: translateY(0%);
+  transition-delay: 0s, 0s, 0.3s;
+  /* this removes the transition delay so
+  the menu will be visible while the other
+  styles transition */
+  display: block;
+  background-color: #000;
+  height: 300px;
+  width: 150px;
 }
 
 header nav ul li {
@@ -170,7 +203,7 @@ PHOTO SIDEBAR
 }
 
 .side-text {
-  padding-left: 50px;
+  padding: 150px;
 }
 
 
@@ -178,10 +211,11 @@ PHOTO SIDEBAR
 FOOTER
 *****************************/
 
-footer {
+.footer-nav-wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 400px;
 }
 
 .left {
@@ -190,7 +224,7 @@ footer {
 }
 
 .left a {
-  margin-bottom: 20px;
+  margin-left: 20px;
 }
 
 .social {
@@ -200,4 +234,8 @@ footer {
 .social img {
   height: 20px;
   padding: 20px;
+}
+
+  #email {
+  margin: 20px;
 }

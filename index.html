@@ -11,9 +11,15 @@
       <nav class="header-nav">
         <div class="logo">
           <img src="img/lambdawhite.png">
-        <ul>
+        <ul class="nav-links">
           <li><a href="#">ABOUT</a></li>
-          <li><a href="#">COURSES</a></li>
+          <li class="dropdown-parent">
+            <a href="#">COURSES</a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Item 1</a></li>
+              <li><a href="#">Item 2</a></li>
+            </ul>
+          </li>
           <li><a href="#">BLOG</a></li>
           <li><a href="#">CONTACT</a></li>
           <li><a href="#">APPLY</a></li>
@@ -38,16 +44,16 @@
 
     <div class="secondary-section">
       <div class="secondary-text">
-        <h3>A new model for higher education</h3>
+        <h2>A new model for higher education</h2>
         <p>Lambda School invests in a small number of ambitious individuals by training them for the world's most in-demand careers.</p>
         <p> In exchange, Lambda School graduates pay back a small percentage of their salary after they are hired.</p>
         <div class="columns">
           <div class="secondary-col">
-            <h5>Selection</h5>
+            <h4>Selection</h4>
             <p>Applicants run through a battery of tests and interviews designed to identify those with the greatest aptitude for a highly technical career.</p>
           </div>
           <div class="secondary-col">
-            <h5>Training</h5>
+            <h4>Training</h4>
             <p>Once students are selected, a small class undergoes live, intensive online training designed to meet the rigorous demands of our hiring partners.</p>
           </div>
         </div>
@@ -57,24 +63,29 @@
     <div class="photo-sidebar">
       <img src="img/istock1blue.jpg" alt="asfsd">
       <div class="side-text">
-        <h4>The skills you need, wherever you are</h4>
+        <h2>The skills you need, wherever you are</h2>
         <p>Lambda School is streamed live from Silicon Valley to a small, interactive class located all over the world. </p>
         <p>Featuring world-class instructors, cutting edge curriculum, and plenty of one-on-one help, you can attend Lambda School from wherever you happen to be.</p>
       </div>
     </div>
     <footer>
+      <div class="footer-nav-wrapper">
       <div class="left">
         <ul>
           <li><a href="#">Courses</a></li>
           <li><a href="#">Careers</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
-        <a href=mailto:support@lambdaschool.com id="email">support@lambdaschool.com</a>
         </div>
         <div class="social">
           <a href="https://facebook.com/lambdaschoolonline"><img src="img/fb_icon.jpg"></a>
           <a href="https://twitter.com/lambdaschool"><img src="img/twitter_icon.png"></a>
         </div>
+      </div>
+        <a href=mailto:support@lambdaschool.com id="email">support@lambdaschool.com</a>
     </footer>
+    <script type="text/javascript" src="app.js">
+
+    </script>
   </body>
 </html>
