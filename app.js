@@ -1,12 +1,12 @@
 const dropdownTrigger = document.querySelector('.dropdown-parent');
+const dropdownMenu = document.querySelector('.dropdown-menu');
 
 const dropDownAction = (element) => {
-  element.addEventListener('mouseover', (e) => {
-    const dropdownMenu = document.querySelector('.dropdown-menu');
-    e.target.style.visibility = 'hidden';
+  element.addEventListener('mouseover', () => {
+    dropdownMenu.style.visibility = 'visible';
   });
-  element.addEventListener('mouseout', (e) => {
-    e.target.style.visibility = 'visible';
+  element.addEventListener('mouseout', () => {
+    dropdownMenu.style.visibility = 'hidden';
   });
 }
 
