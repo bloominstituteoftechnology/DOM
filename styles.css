@@ -77,36 +77,43 @@ header img {
   position: relative;
 }
 
-.dropdown-menu {
-  visibility: hidden; /* hides sub-menu */
+/*.dropdown-menu {
+  visibility: hidden;
   opacity: 0;
-  position: absolute;
-  top: 100%;
   left: 0;
-  width: 100%;
   transform: translateY(-2em);
   z-index: -1;
   transition: all 0.3s ease-in-out 0s,
               visibility 0s linear 0.3s,
               z-index 0s linear 0.01s;
-}
+}*/
 
 .dropdown-menu {
+  position: absolute;
+  top: 177%;
   visibility: hidden; /* shows sub-menu */
-  opacity: 1;
+  padding: 0;
+  margin: 0;
   z-index: 1;
-  transform: translateY(0%);
-  transition-delay: 0s, 0s, 0.3s;
+  color: white;
+  /*transform: translateY(0%);
+  transition-delay: 0s, 0s, 0.3s;*/
   /* this removes the transition delay so
   the menu will be visible while the other
   styles transition */
   display: block;
   background-color: #000;
   height: 300px;
-  width: 150px;
+  width: 300px;
+  text-align: left;
 }
 
-header nav ul li {
+/*.dropdown-menu li {
+  margin: 0;
+}*/
+
+header nav ul li,
+.dropdown-menu h5 {
   margin-left: 6%;
 }
 
