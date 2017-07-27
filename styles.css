@@ -91,7 +91,6 @@ header img {
 .dropdown-menu {
   position: absolute;
   top: 177%;
-  visibility: hidden; /* shows sub-menu */
   padding: 0;
   margin: 0;
   z-index: 1;
@@ -101,7 +100,7 @@ header img {
   /* this removes the transition delay so
   the menu will be visible while the other
   styles transition */
-  display: block;
+  display: none;
   background-color: #000;
   height: 300px;
   width: 300px;
