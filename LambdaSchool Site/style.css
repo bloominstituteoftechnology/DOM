@@ -1,0 +1,228 @@
+
+
+.main-container {
+	width: 100%;
+	height: 100%;
+}
+
+.background-image-holder {
+		display: inline-block;
+		width: 100%;
+		background-color: blue;
+		background-size: 80px 60px;
+		background-repeat: no-repeat;
+}
+
+.background-image {
+	height: 100%;
+	width: 100%;
+	background: url(https://lambdaschool.com/assets/img/background.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.overlay{
+	background-color: rgba(66, 143, 187, .8);
+	height: 100%;
+	width: 100%;
+}
+
+.nav-bar {
+	text-align: left;
+	margin-left: 5em;
+}
+
+.nav-list {
+    margin: 0;
+    padding: 0;
+		display: flex;
+		list-style: none;
+}
+
+.container-nav {
+	width: 100%;
+	height: 100%;
+}
+
+.container-title {
+	width: 20em;
+	height: 100%;
+	width: 100%;
+	margin-top: 10em;
+	margin-bottom: 10em;
+}
+
+.title_w_btn {
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+
+.btn_div {
+	text-align: center;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.nav-logo {
+		display: inline-block;
+		padding: 20px;
+}
+
+
+
+.list-item {
+    text-align: center;
+    margin-top: 8px;
+		padding: 20px;
+		padding-left: 40px;
+		color: aliceblue;
+}
+
+.list-item:hover {
+		color: darkgray;
+}
+
+
+li a {
+	color: aliceblue;
+}
+
+
+.h1_white {
+		color: aliceblue;
+		font-size: 5em;
+}
+
+.p_white {
+		margin-top: 2em;
+		color: aliceblue;
+		font-size: 1.5em;
+}
+
+.btn_white {
+		background-color: aliceblue;
+		color: black;
+		border: none;
+  	padding: 1em 2em;
+		margin: 5em;
+  	text-align: center;
+  	text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.btn_clear {
+		color: aliceblue;
+		border: 2px solid darkgray;
+	  padding: .90em 1.5em;
+  	text-align: center;
+  	text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.paragraph {
+	text-align: center;
+}
+
+.header-2 {
+	text-align: center;
+	margin-top: 8em;
+	margin-bottom: 2em;
+	width: 100%;
+}
+
+.header-3 {
+	text-align: center;
+	margin-top: 3em;
+	margin-bottom: 0px;
+	margin-left: 30%;
+	width: 40%;
+	display: flex;
+}
+
+.body-text {
+	font-size: 1.4em;
+	text-align: left;
+	margin-top: 2em;
+	display: inline-block;
+}
+
+.body-text-2 {
+	font-size: 1.4em;
+	text-align: left;
+	margin-top: 2em;
+	padding-bottom: 2em;
+}
+
+h3 {
+	display: inline-block;
+	text-align: center;
+}
+
+.two-columns {
+	width: 40%;
+	margin-left: 30%;
+	height: 10em;
+	display: flex;
+}
+
+
+.dropbtn {
+		text-decoration: none;
+}
+
+.dropbtn:hover {
+		text-decoration: none;
+		color: darkgray;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+.dropdown-content {
+		display: none;
+		position: absolute;
+    background-color: black;
+    min-width: 30em;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+		color: white;
+		text-decoration: none;
+		text-align: left;
+}
+
+
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+		text-decoration: none;
+		display: block;
+}
+
+
+.dropdown-content a:hover {
+		color: darkgray;
+		text-decoration: none;
+		display: block;
+	}
+
+
+.dropdown:hover .dropdown-content {
+    display: block;
+		text-decoration: none;
+}
+
+.section-3 {
+	height: 40em;
+	background-color: gray;
+	opacity: 0.1;
+}
