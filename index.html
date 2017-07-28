@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400italic,700|Montserrat:400,700" rel="stylesheet" type="text/css">
+    <script src="app.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <title>LS Recreation</title>
+    <script>
+      const dropdown = (condition) => {
+        condition ? (document.getElementsByClassName("dropdown")[0].style.display = "block") : (document.getElementsByClassName("dropdown")[0].style.display = "none");
+      };
+    </script>
+  </head>
+  <body>
+
+    <div class="background-image"></div>
+    <div class="firstSection"> <!-- First scroll page -->
+
+      <header> <!-- Topbar including image and navigation. -->
+        <nav class="logo">
+          <span class="helper">
+            <a href="">
+              <img src="https://lambdaschool.com/assets/img/lambdawhite.png">
+            </a>
+          </span>
+          <ul class="menu">
+            <li class="navItems">
+              ABOUT
+            </li>
+            <li class="navItems" onmouseover="dropdown(true)">
+              COURSES
+            </li>
+            <div class="dropdown">
+              <div class="dropdown-content" onmouseleave="dropdown(false)">
+                <a href="">VIEW ALL COURSES</a>
+
+                <h2>COURSES</h2>
+                <a href="">COMPUTER SCIENCE & SOFTWARE ENGINEERING</a>
+                <a href="">ARTIFICIAL INTELLIGENCE & MACHINE LEARNING</a>
+
+                <h2>FREE COURSE ARCHIVES</h2>
+                <a href="">JAVASCRIPT MINI BOOTCAMP</a>
+                <a href="">WEB DEVELOPMENT MINI BOOTCAMP</a>
+              </div>
+            </div>
+            <li class="navItems">
+              BLOG
+            </li>
+            <li class="navItems">
+              CONTACT
+            </li>
+            <li class="navItems">
+              APPLY
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <section> <!-- Middle page marketing info -->
+        <div class="centeredContainer">
+          <div class="hTextContainer">
+            <h1>
+              The Computer Science Education of the Future
+            </h1>
+          </div>
+          <div class="pTextContainer">
+            <p>
+              Immersive preparation for the world's most in-demand careers for as little as <strong> $0 until you're hired </strong>
+            </p>
+          </div>
+
+            <div class="linkBox">
+              VIEW COURSES
+            </div>
+            <div class="linkBox">
+              APPLY NOW
+            </div>
+
+        </div>
+      </section>
+
+    </div>
+
+    <div class="section"> <!-- Second section -->
+      <p>
+        hi
+      </p>
+    </div>
+  </body>
+</html>
