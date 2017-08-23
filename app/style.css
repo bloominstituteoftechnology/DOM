@@ -344,6 +344,6 @@ hr {
   transition:.3s;
 }
 
-#mla>button:hover {
+#mla button:hover {
   background-color: rgba(84, 154, 195, 1);
 }
