@@ -1,0 +1,156 @@
+
+body {
+    background-color: #4286f4;
+}
+.topmenu {
+    color: white;
+    display: inline-block;
+    margin-left: 35px;
+    background-color: #4286f4;
+}
+
+.upper {
+    text-align: center;
+    color: white;
+    margin: 240px;
+    font-size: 35px;
+    background-color: #4286f4;
+}
+div p {
+    font-size: 22px;
+}
+
+.button {
+    height: 50px;
+    width: 190px;
+}
+#button1 {
+    background-color: #4286f4;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    margin-right: 12px;
+}
+
+#button2 {
+    border-style: solid;
+    background-color: white;
+    margin-left: 12px;
+    color: #4286f4;
+}
+
+.bottom {
+    background-color: white;
+    color: gray;
+}
+
+.aligned {
+    text-align: center;
+}
+
+h2 {
+    color: black;
+}
+
+upper h1 {
+    margin:0px;
+}
+
+#heading1 {
+    margin-bottom: 0px;
+}
+
+#entered {
+    margin-top: 40px;
+}
+
+.thisdiv {
+    text-align: center;
+    display: inline-block;
+    background-color: white;
+}
+
+#leftchoice {
+    padding-left: 657px;
+    display: inline-block;
+}
+
+#rightchoice {
+    padding-right: 657px;
+    display: inline-block;
+}
+
+.thisdiv p {
+    color: gray;
+}
+
+.whiteback {
+    background-color: white;
+}
+
+.inlinedisplay {
+    display: inline-block;
+}
+
+#left {
+    margin-right: 400px;
+    margin-left:400px;
+}
+
+/* li p {
+    text-align: center;
+    display: inline-block;
+} */
+
+#addmargin {
+    margin-left: 100px;
+}
+
+#button3 {
+    margin-left: 100px;
+}
+
+.bottombuttons {
+    color: white;
+    background-color: #4286f4;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    width: 185px;
+    height: 47px;
+}
+
+#thispic {
+    margin-left: -330px;
+    overflow: hidden;
+}
+
+#floatedright {
+    float: right;
+}
+
+#leftother {
+    margin-right: 400px;
+    margin-left:500px;
+}
+
+#thisleft {
+    margin-left: 400px;
+    margin-right: 280px;
+}
+
+#pushed {
+    margin-top: 170px;
+    margin-right: 525px;
+}
+
+.devpics {
+    max-width: 265px;
+    max-height: 265px;
+}
+
+.studentpics {
+    max-width: 232px;
+    max-height: 281px;
+}
