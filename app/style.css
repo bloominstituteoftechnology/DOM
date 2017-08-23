@@ -1,0 +1,349 @@
+html, body {
+  width: 100%;
+  margin: 0;
+  font-family: Montserrat, Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+h6 {
+  font-size: .72em;
+}
+
+h6, .h6 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin-bottom: 2.36363636363636em;
+}
+
+p {
+  font-family: 'Lora','Helvetica','Arial',sans-serif;
+  color: rgba(118, 118, 118, 1);
+}
+
+b {
+  font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6, p, ul, a {
+  margin: 0;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding: 0;
+}
+
+hr {
+  border: 0; 
+  height: 1px; 
+  width: 75%;
+  margin-bottom: 30px;
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+}
+
+.button {
+  cursor: pointer;
+}
+
+.lead {
+  font-size: 1.45375em;
+  line-height: 1.69em;
+  font-weight: 400;
+}
+
+.nav-container {
+  z-index: -1;
+}
+
+.navbar {
+  height: 65px;
+  display: flex;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: rgba(0, 0, 0, 0.02);
+  box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.05);
+  position: absolute;
+  width: 100%;
+}
+
+.logo {
+  width: 100px;
+  padding: 1.2em 0 0 3em;
+}
+
+.logo img {
+  width: 100%;
+
+}
+
+.menu ul {
+  display: flex;
+  list-style: none;
+  padding: 1.5em;
+}
+
+.menu li:first-child a {
+  padding-left: 0;
+}
+
+.menu li a {
+  display: inline-block;
+  padding: 0 1.3em;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: white;
+  -o-transition:.3s;
+  -ms-transition:.3s;
+  -moz-transition:.3s;
+  -webkit-transition:.3s;
+  transition:.3s;
+}
+
+.menu li a:hover {
+  color: rgba(171, 198, 214, 1);
+}
+
+.welcome {
+  display: flex;
+  height: 990px;
+  background-image: url("https://lambdaschool.com/assets/img/background.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(66, 143, 187, 0.8);
+}
+
+.welcometext {
+  width: 100%;
+  height: 500px;
+  margin: auto;
+}
+
+.welcometext h1 {
+  display: block;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 65px;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+.welcometext p {
+  display: block;
+  font-size: 23px;
+  font-family: 'Lora','Helvetica','Arial',sans-serif;
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 39px;
+  margin-bottom: 26px;
+  text-align: center;
+}
+
+.button-container {
+  text-align: center;
+  height: 45px;
+}
+
+.button-container button {
+  width: 190px;
+  height: 100%;
+  padding-left: 3.25em;
+  padding-right: 3.25em;
+  padding-bottom: 0.65em;
+  padding-top: 0.5em;
+  margin-left: 15px;
+  margin-right: 15px;
+  line-height: 1.625em;
+  font-size: 0.625em;
+  font-weight: 400;
+}
+
+#button-courses {
+  background-color: transparent;
+  color: rgba(255, 255, 255, 1);
+  border: 1px solid rgba(255, 255, 255, 1);
+}
+
+#button-apply {
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(66, 143, 187, 1);
+  border: 1px solid rgba(255, 255, 255, 1);
+}
+
+.newmodel {
+  max-height: 850px;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.newmodel h3,p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.newmodel h3 {
+  padding-bottom: 50px;
+  font-weight: bold;
+  color: rgba(52, 52, 52, 1);
+}
+
+.texts {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+#selectiontext {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+#trainingtext {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.lscourses {
+  max-height: 850px;
+  position: absolute;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.lscourses {
+  max-height: 780px;
+  width: 100%;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: rgba(244, 244, 244, 1);
+}
+
+.lscourses h3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#csa {
+  background-color: rgba(255, 255, 255, 1);
+  width: 550px;
+  max-height: 450px;
+  margin-top: 2.5em;
+  margin-right: 2em;
+  text-align: center;
+  padding-top: 2em;
+  line-height: 1.8em;
+  -o-transition:.6s;
+  -ms-transition:.6s;
+  -moz-transition:.6s;
+  -webkit-transition:.6s;
+  transition:.6s;
+}
+
+#csa:hover {
+  box-shadow: 6px 6px 20px 5px rgba(225, 225, 225, 0.5), -6px -6px 20px 5px rgba(225, 225, 225, 0.25);
+}
+
+#csa h6 {
+  margin-bottom: 2em;
+}
+
+#csa button {
+  margin-top: 5em;
+  margin-bottom: 5em;
+  font-size: 0.625em;
+  font-weight:400;
+  letter-spacing: 1px;
+  background-color: rgba(61, 134, 174, 1);
+  color: rgba(255, 255, 255, 1);
+  border: 2px solid;
+  border-color: #428fbb;
+  padding: 0.5em 3.25em 0.5em 3.25em;
+  height: 45px;
+  width: 190px;
+  -o-transition:.3s;
+  -ms-transition:.3s;
+  -moz-transition:.3s;
+  -webkit-transition:.3s;
+  transition:.3s;
+}
+
+#csa button:hover {
+  background-color: rgba(84, 154, 195, 1);
+}
+
+#mla {
+  background-color: rgba(255, 255, 255, 1);
+  width: 550px;
+  max-height: 450px;
+  margin-top: 2.5em;
+  text-align: center;
+  padding-top: 2em;
+  line-height: 1.8em;
+  -o-transition:.6s;
+  -ms-transition:.6s;
+  -moz-transition:.6s;
+  -webkit-transition:.6s;
+  transition:.6s;
+}
+
+#mla:hover {
+  box-shadow: 6px 6px 20px 5px rgba(225, 225, 225, 0.5), -6px -6px 20px 5px rgba(225, 225, 225, 0.25);
+}
+
+#mla h6 {
+  margin-bottom: 2em;
+}
+
+#mla button {
+  margin-top: 5em;
+  margin-bottom: 5em;
+  font-size: 0.625em;
+  font-weight:400;
+  letter-spacing: 1px;
+  background-color: rgba(61, 134, 174, 1);
+  color: rgba(255, 255, 255, 1);
+  border: 2px solid;
+  border-color: #428fbb;
+  padding: 0.5em 3.25em 0.5em 3.25em;
+  height: 45px;
+  width: 190px;
+  -o-transition:.3s;
+  -ms-transition:.3s;
+  -moz-transition:.3s;
+  -webkit-transition:.3s;
+  transition:.3s;
+}
+
+#mla>button:hover {
+  background-color: rgba(84, 154, 195, 1);
+}
