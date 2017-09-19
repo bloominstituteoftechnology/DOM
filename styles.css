@@ -60,20 +60,19 @@
 	padding-top: 20px;
 }
 
-.view-courses {
-	background-color: Transparent;
+.view-courses, .apply-now {
 	height: 80px;
 	width: 200px;
-	color: white;
 	font-size: 14px;
 	margin: 20px;
 }
 
+.view-courses {
+	background-color: Transparent;
+	color: white;
+}
+
 .apply-now {
 	color: rgba(0,140,200);
-	height: 80px;
-	width: 200px;
 	background-color: white;
-	font-size: 14px;
-	margin: 20px;
 }
