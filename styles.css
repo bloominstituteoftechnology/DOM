@@ -1,27 +1,79 @@
-.main-container {
-	color: red;
+.first-section {
 	background-image: url("https://lambdaschool.com/assets/img/background.jpg");
+	background-size:cover
 }
 
+.nav-container {
+	color: white;
+}
+
+
 .background-tint {
-	background-color: rgba(0,115,250,0.5);
+	background-color: rgba(0,140,200,1);
 	background-blend-mode: multiply;
 }
 
 .middle-block {
-	width: 75px;
+	width: 65%;
+	margin: 0 auto;
+	height: 500px;
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
 
 .head {
 	color: white;
 	text-align: center;
 	padding: 20px;
-	font-size: 60px;
+	font-size: 80px;
 	font-style: bold;
+}
+
+.button-container {
+	padding-top: 10px;
+	margin: 0 auto;
+	text-align: center;
 }
 
 .subhead {
 	color: white;
 	text-align: center;
-	padding: 20px;
+	padding: 30px;
+	font-size: 40px;
+;}
+
+.nav-button {
+	background-color: Transparent;
+	background-repeat:no-repeat;
+	border: none;
+	cursor:pointer;
+	overflow: hidden;
+	outline:none;
+	color: white;
+	padding-top: 10px;
+	padding-left: 20px;
+	font-size: 16px;
+}
+
+.logo {
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.view-courses {
+	background-color: Transparent;
+	height: 80px;
+	width: 200px;
+	color: white;
+	font-size: 14px;
+	margin: 20px;
+}
+
+.apply-now {
+	color: rgba(0,140,200);
+	height: 80px;
+	width: 200px;
+	background-color: white;
+	font-size: 14px;
+	margin: 20px;
 }
