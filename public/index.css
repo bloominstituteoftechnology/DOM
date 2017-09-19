@@ -1,4 +1,8 @@
 
+h1, h2, h4 {
+	text-transform: uppercase;
+}
+
 .container {
 	position: absolute;
 	min-width: 400px;
@@ -14,7 +18,7 @@
 .header {
 	position: absolute;
 	width: 100%;
-	height: 8vmin;
+	height: 60px;
 	left: 0;
 	top: 0;
 	border-bottom: 1.5px solid rgb(218, 215, 255);
@@ -23,13 +27,14 @@
 }
 
 .background {
-	background: linear-gradient(rgba(5, 20, 60, .7), rgba(55, 189, 255, .4)), url("res/images/background.jpg");
-	background-position: center top;
+	background: linear-gradient(rgba(5, 40, 60, .9), rgba(55, 189, 255, .6)), url("res/images/background.jpg");
+	background-position: center center;
 	background-attachment: fixed;
 	background-size: cover;
 	background-repeat: no-repeat;
 	width: 100%;
 	height: 100%;
+	display: inline-block;
 }
 
 .logo {
@@ -37,65 +42,168 @@
 	display: inline-block;
 	float: left;
 	top: 50%;
-  transform: translateY(-50%);
-  margin-left: 2vmin;
+	transform: translateY(-50%);
+	margin-left: 2vmin;
+	margin-right: 3vmin;
 }
 
 .logo > a > img {
-	height: 3.2vmin;
-	min-height: 25px;
+	height: 30px;
 }
 
-.menu > .items *{
+.menu {
 	display: inline-block;
+	text-align: center;
 }
 
-@media screen and (max-width: 995px) and (min-width: 0px){
+.menu.items > p {
+	position: relative;
+	display: inline-block;
+	margin-top: 0px;
+	padding: 20px 10px 24px 10px;
+	font-size: 16px;
+	color: white;
+	text-transform: uppercase;
+	top: 0;
+}
+
+.menu.items.courses:hover + .menu.items.courses.dropdown {
+	display: block;
+}
+
+.menu.items.courses.dropdown:hover {
+	display: block;
+}
+
+.menu.items.courses.dropdown {
+	position: absolute;
+	display: none;
+	text-align: left;
+	width: 380px;
+	color: white;
+	background-color: rgb(25,26,28);
+	padding: 8px 8px 8px 20px;
+	margin-top: -16px;
+	box-shadow: 5px 5px 8px rgba(0, 0, 0, .5);
+}
+
+.menu.items.courses.dropdown > * {
+	opacity: .6;
+}
+
+.menu.items.courses.dropdown > h1 {
+	font-size: 14px;
+}
+
+.menu.items.courses.dropdown > h2 {
+	font-size: 13px;
+	margin-top: 20px;
+}
+
+.menu.items.courses.dropdown > h4 {
+	font-size: 10px;
+	margin-top: 30px;
+	opacity: .4;
+}
+
+.menu.items > p:hover {
+	opacity: .8;
+}
+
+.info {
+	text-align: center;
+	color: white;
+}
+
+.info > h1 {
+	margin-top: 30vmin;
+	margin-left: 20vmin;
+	margin-right: 20vmin;
+	font-size: 7vmin;
+	text-shadow: 4px 3px 2px rgba(0, 0, 0, .5);
+}
+
+.info > h3 {
+	margin-left: 60px;
+	margin-right: 60px;
+	font-size: 4vmin;
+	font-weight: normal;
+}
+
+.info.button {
+	position: relative;
+	display: inline-block;
+	border: 1px solid white;
+	padding: 15px 56px 15px 56px;
+	background: transparent;
+	outline: none;
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+.info.button#apply {
+	background-color: rgba(255,255,255,.8);
+	color: rgba(16,24,24,.7);
+}
+
+.info.button:hover {
+	padding: 14px 53px 15px 51px;
+	font-size: 13px;
+}
+
+.info.button:active {
+	padding: 16px 60px 16px 59px;
+	font-size: 11px;
+}
+
+.info.button#apply:hover {
+	padding: 14px 53px 15px 54px;
+}
+
+.info.button#apply:active {
+	padding: 16px 59px 16px 59px;
+	font-size: 11px;
+}
+
+@media screen and (max-width: 995px){
 	.header {
 		background-color: rgb(16,24,24);
-		position: relative;
+		position: fixed;
+		z-index: 9001;
 	}
+
+	.logo > a > img{
+		height: 20px;
+	}
+
 	.background {
 		position: relative;
 	}
-	.menu {
-		position: relative;
-		display: inline-block;
-		float: right;
-		top: 50%;
-	  transform: translateY(-50%);
-	  margin-right: 2vmin;
+
+	.menu.items > * {
+		font-size: 12px !important;
+		padding-right: 1.5vmin !important;
+		padding-left: 1.5vmin !important;
+		padding-bottom: 3% !important;
+		padding-top: 6% !important;
+		bottom: 0 !important;
 	}
 
-	.menu > .bar {
-		position: relative;
-		background-color: grey;
-		margin: .5vmin 0 0 0;
-		width: 5vmin;
-		height: .25vmin;
-	}
-
-	.menu:hover {
-		margin-top: 1.7vmin;
-	}
-
-	.menu:hover > .bar {
-		margin: .6vmin 0 0 0;
-	}
-
-	.menu:active {
-		margin-top: 2.2vmin;
-	}
-
-	.menu:active > .bar {
-		margin: .4vmin 0 0 0;
-	}
-
-	.menu:active > .items {
-		display: inline-block;
-	}
-
-	.menu > .items {
+	.menu.items.courses:hover + .menu.items.courses.dropdown {
 		display: none;
+	}
+}
+
+@media screen and (max-height: 780px) {
+	.menu.items > p{
+		font-size: 16px;
+	}
+
+	.info > h1 {
+		font-size: 58px;
+	}
+
+	.info > h3 {
+		font-size: 30px;
 	}
 }
