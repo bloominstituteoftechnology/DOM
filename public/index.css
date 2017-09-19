@@ -1,0 +1,101 @@
+
+.container {
+	position: absolute;
+	min-width: 400px;
+	max-width: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	left:0;
+	top:0;
+	height: 100%;
+}
+
+.header {
+	position: absolute;
+	width: 100%;
+	height: 8vmin;
+	left: 0;
+	top: 0;
+	border-bottom: 1.5px solid rgb(218, 215, 255);
+	border-bottom: 1.5px solid rgba(218, 215, 255, .5);
+	min-height: 60px;
+}
+
+.background {
+	background: linear-gradient(rgba(5, 20, 60, .7), rgba(55, 189, 255, .4)), url("res/images/background.jpg");
+	background-position: center top;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+}
+
+.logo {
+	position: relative;
+	display: inline-block;
+	float: left;
+	top: 50%;
+  transform: translateY(-50%);
+  margin-left: 2vmin;
+}
+
+.logo > a > img {
+	height: 3.2vmin;
+	min-height: 25px;
+}
+
+.menu > .items *{
+	display: inline-block;
+}
+
+@media screen and (max-width: 995px) and (min-width: 0px){
+	.header {
+		background-color: rgb(16,24,24);
+		position: relative;
+	}
+	.background {
+		position: relative;
+	}
+	.menu {
+		position: relative;
+		display: inline-block;
+		float: right;
+		top: 50%;
+	  transform: translateY(-50%);
+	  margin-right: 2vmin;
+	}
+
+	.menu > .bar {
+		position: relative;
+		background-color: grey;
+		margin: .5vmin 0 0 0;
+		width: 5vmin;
+		height: .25vmin;
+	}
+
+	.menu:hover {
+		margin-top: 1.7vmin;
+	}
+
+	.menu:hover > .bar {
+		margin: .6vmin 0 0 0;
+	}
+
+	.menu:active {
+		margin-top: 2.2vmin;
+	}
+
+	.menu:active > .bar {
+		margin: .4vmin 0 0 0;
+	}
+
+	.menu:active > .items {
+		display: inline-block;
+	}
+
+	.menu > .items {
+		display: none;
+	}
+}
