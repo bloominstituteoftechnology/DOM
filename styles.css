@@ -1,8 +1,11 @@
 .first-section {
-	background-image: url("https://lambdaschool.com/assets/img/background.jpg");
+	background-image: url("https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/21032549_10159070309470532_5271778006322029204_n.jpg?oh=dc45c452a3b6cb849318aba03a606af8&oe=5A48DEE6");
 	background-size:cover
 }
-
+/*
+my face: https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/21032549_10159070309470532_5271778006322029204_n.jpg?oh=dc45c452a3b6cb849318aba03a606af8&oe=5A48DEE6
+original: https://lambdaschool.com/assets/img/background.jpg;
+*/
 .nav-container {
 	color: white;
 }
@@ -17,8 +20,8 @@
 	width: 65%;
 	margin: 0 auto;
 	height: 500px;
-	padding-top: 100px;
-	padding-bottom: 100px;
+	padding-top: 200px;
+	padding-bottom: 200px;
 }
 
 .head {
