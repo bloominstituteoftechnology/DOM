@@ -1,0 +1,27 @@
+.main-container {
+	color: red;
+	background-image: url("https://lambdaschool.com/assets/img/background.jpg");
+}
+
+.background-tint {
+	background-color: rgba(0,115,250,0.5);
+	background-blend-mode: multiply;
+}
+
+.middle-block {
+	width: 75px;
+}
+
+.head {
+	color: white;
+	text-align: center;
+	padding: 20px;
+	font-size: 60px;
+	font-style: bold;
+}
+
+.subhead {
+	color: white;
+	text-align: center;
+	padding: 20px;
+}
