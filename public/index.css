@@ -180,6 +180,10 @@ h1, h2, h4 {
 		position: relative;
 	}
 
+	.info > h1{
+		margin-top: 60%;
+	}
+
 	.menu.items > * {
 		font-size: 12px !important;
 		padding-right: 1.5vmin !important;
@@ -191,19 +195,5 @@ h1, h2, h4 {
 
 	.menu.items.courses:hover + .menu.items.courses.dropdown {
 		display: none;
-	}
-}
-
-@media screen and (max-height: 780px) {
-	.menu.items > p{
-		font-size: 16px;
-	}
-
-	.info > h1 {
-		font-size: 58px;
-	}
-
-	.info > h3 {
-		font-size: 30px;
 	}
 }
