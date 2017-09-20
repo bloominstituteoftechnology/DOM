@@ -1,0 +1,361 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p, h1 {
+  margin: 0;
+  padding: 0;
+}
+
+h6 {
+  font-weight: 400;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Lora', 'Montserrat', sans-serif;
+  font-size: 1rem;
+  overflow-x: hidden;
+}
+
+header {
+  background: linear-gradient(rgba(66, 143, 187, .8), rgba(66, 143, 187, .8)),  url(https://lambdaschool.com/assets/img/background.jpg);
+  background-color: #428fbb;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  height: 100vh;
+  color: rgba(255, 255, 255, .9);
+  font-family: 'Montserrat';
+  font-weight: 400;
+  width: 100%;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin-left: 50px;
+  letter-spacing: 1px;
+  align-items: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: .75rem;
+  border-bottom: 1px solid rgba(255, 255, 255, .1);
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+}
+
+.nav__list__item {
+  padding: 0 15px;
+}
+
+.nav__logo {
+  width: 100px;
+  margin: 15px 0;
+  margin-right: 40px;
+}
+
+.header__text-box {
+  text-align: center;
+  padding: 120px 0;
+}
+
+.header__title {
+  font-size: 4rem;
+  font-weight: 600;
+  font-family: 'Arial';
+  letter-spacing: 1px;
+  margin-top: 64px;
+}
+
+.header__description {
+  font-family: 'Lora';
+  font-size: 1.5rem;
+  line-height: 39px;
+  margin-top: 26px;
+  margin-bottom: 26px;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 15px 52px;
+  text-align: center;
+  font-size: .645rem;
+  margin: 0 10px;
+}
+
+.btn--full {
+  border: 1px solid rgba(255, 255, 255, .9);
+  background-color: rgba(255, 255, 255, .9);
+  color: #428fbb;
+}
+
+.btn--empty {
+  border: 1px solid rgba(255, 255, 255, .9);
+  color: rgba(255, 255, 255, .9);
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 80px;
+  padding-bottom: 130px;
+}
+
+.section-about {
+  background-color: #f8f8f8;
+}
+
+.section__text-box {
+  width: 60%;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: 'Montserrat';
+  color: #343434;
+  margin-bottom: 64px;
+}
+
+.section-title--smaller {
+  text-align: center;
+  color: #343434;
+  font-family: 'Montserrat';
+  margin-top: 3em;
+  margin-bottom: -1em;
+}
+
+.section-copy {
+  font-size: 1.5rem;
+  color: #767676;
+  line-height: 39px;
+}
+
+.section__box {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 64px;
+  width: 60%;
+}
+
+.section__card:last-child {
+  margin-right: 0;
+  margin-left: 30px;
+}
+
+.section__card {
+  width: 45%;
+  margin-right: 30px;
+}
+
+.section-subtitle {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 26px;
+  color: #343434;
+}
+
+.section-courses {
+  background-color: #f4f4f4;
+}
+
+.card-box {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.course-card {
+  width: 45%;
+  background-color: #fff;
+  padding: 40px 52px;
+  text-align: center;
+  margin-top: 24px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.card-title {
+  margin-bottom: 24px;
+  padding-bottom: 24px;
+  font-family: 'Montserrat';
+  letter-spacing: 1px;
+  font-size: .9rem;
+  color: #343434;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.card__text {
+  font-size: 1rem;
+  line-height: 1.626em;
+  color: #767676;
+  margin-top: 24px;
+  margin-bottom: 52px;
+}
+
+.btn--blue {
+  padding: 10px 52px;
+  background-color: rgb(66, 143, 187);
+  border: 2px solid rgb(66, 143, 187);
+  color: #fff;
+  line-height: 26px;
+  font-family: 'Montserrat';
+}
+
+.img-section {
+  background-color: #f8f8f8;
+  display: flex;
+  align-items: center;
+}
+
+.section__bg-img {
+  height: 100%;
+}
+
+.skills__text-box {
+  padding-left: 10em;
+  padding-right: 8em;
+  background-color: #f8f8f8;
+}
+
+.img-section__title {
+  font-size: 1.5rem;
+  margin-bottom: 1.13em;
+  font-family: 'Montserrat';
+}
+
+.section-tuition {
+  background-color: #f4f4f4;
+}
+
+.section-tuition .section__text-box {
+  width: 80%;
+  text-align: center;
+}
+
+.section-tuition .section__box {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+}
+
+.section-experience {
+  background-color: #232323;
+}
+
+.exp-heading {
+  color: #f5f5f5;
+  font-family: 'Montserrat';
+  font-size: .72rem;
+  margin-bottom: 2.36em;
+}
+
+.experience__text-box {
+  margin: 0 auto;
+  width: 65%;
+}
+
+.section-experience .section-copy {
+  color: #f5f5f5;
+}
+
+.section-instructors {
+  background-color: #fff;
+}
+
+.instructor__row {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0 8em;
+}
+
+.instructor__card {
+  width: 22%;
+}
+
+.instructor__card img {
+  max-width: 100%;
+  margin-bottom: 1.625em;
+  vertical-align: middle;
+}
+
+.instructor__name {
+  color: #232323;
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: 'Montserrat';
+  margin-bottom: .825em;
+}
+
+.instructor__bio {
+  color: #767676;
+  font-family: 'Lora';
+}
+
+.learn__text-box {
+  padding-left: 9em;
+  padding-right: 5em;
+}
+
+.section-free-courses {
+  background-color: #f4f4f4;
+}
+
+.section-free-courses .course-card {
+  text-decoration: none;
+  text-align: left;
+}
+
+.section-free-courses .card-title {
+  border: none;
+  padding-bottom: 0;
+}
+
+.section-free-courses .card__text {
+  margin: 0;
+}
+
+.free-course__title {
+  font-family: 'Montserrat';
+  font-size: 1.4rem;
+  line-height: 1.4em;
+  color: #343434;
+}
+
+.section-people .section__bg-img {
+  margin-left: -75px;
+}
+
+.section-students {
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+}
+
+.students__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+
+.students__card {
+  justify-self: start;
+  background-color: #fff;
+}
+
+.
