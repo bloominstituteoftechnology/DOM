@@ -1,0 +1,175 @@
+html{
+    height: 100%;
+    width: 100%;
+}
+.top {
+    background-color: #7878BA;
+}
+h1{
+    background-color: red;
+}
+
+.item {
+    background-color: #7878BA;
+    display: inline-block;
+    list-style-type: none;
+    font-size: 26px;
+    color: white;
+    margin-left: 20px;
+}
+.nav-logo {
+    background-color: #7878BA;
+    border: 0px;
+    margin: 0px;
+    padding: 15px;
+    display: inline-block;
+}
+.mastHead {
+    background-color: #7878BA;
+    padding: 30px;
+    text-align: center;
+    font-size: 70px;
+    color: white;
+}
+.mastHead2 {
+    background-color: #7878BA;
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.mastButtons {
+    background-color: #7878BA;
+    padding: 30px 30px 150px 30px;
+    text-align: center;
+    font-size: 70px;
+    color: white;
+}
+.itembox1 {
+    background-color: #7878BA;
+    display: inline-block;
+    list-style-type: none;
+    font-size: 20px;
+    color: white;
+    border-style: solid;
+    border-width: 3px;
+    display: inline-flex;
+    align-self: auto;
+    padding: 12px 37px 12px 37px;
+}
+.itembox2 {
+    background-color: white;
+    display: inline-block;
+    list-style-type: none;
+    font-size: 20px;
+    color: #7878BA;
+    display: inline-flex;
+    align-self: auto;
+    padding:15px 40px 15px 40px;
+}
+.introWhite {
+    background-color: #DCDCDC;
+    padding: 30px;
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    list-style-type: none;
+    text-align: center;
+    font-size: 30px;
+    color: gray;
+}
+.about {
+    color: black;
+    padding: 30px;
+    margin: 100px 200px 0px 200px;
+}
+.aboutSub {
+    padding: 30px;
+    margin: 0px 200px 0px 200px;
+    text-align: left;
+}
+.leftRight {
+        display:inline-block;
+        width: 50%
+}
+.abs2 {
+    position:relative;
+    float:left;
+    padding: 20px;
+    text-align: left;
+    width: 300px;
+    height: 500px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+.abs3 {
+    position:relative;
+    float: right;
+    padding: 20px;
+    text-align: left;
+    width: 300px;
+    height: 500px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+.aboutSubTitle {
+    color:black;
+    padding: 20px;
+    margin: 0px 40px 0px 40px;
+    display: inline-block;
+}
+.secondBox {
+    background-color: #BBBBBB;
+    padding: 30px;
+    text-align: center;
+    width:100%;
+}
+.coursesTitle {
+    text-align: center;
+    font-size: 50px;
+    color:black;
+    display: block;
+}
+.claBox {
+    display:inline-block;
+    text-align: left;
+    padding:20px;
+    width: 45%;
+    margin: 30px;
+    box-sizing: border-box;
+    font-size: 20px;
+    background-color: white;
+}
+.mlaBox {
+    display: inline-block;
+    text-align: left;
+    padding:20px;
+    width: 45%;
+    box-sizing: border-box;
+    font-size: 20px;
+    background-color: white;
+}
+.blackBox {
+    background-color: black;
+    color:white;
+    padding: 100px;
+    text-align: center;
+}
+.closingRemarks {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 100px 0px 50px 0px;
+    text-align: center;
+}
+.instructor {
+    display: inline-block;
+    width:300px;
+    height: 450px;
+    box-sizing: border-box;
+}
+.student {
+    display: inline-block;
+    width:600px;
+    height: 450px;
+    box-sizing: border-box;
+}
