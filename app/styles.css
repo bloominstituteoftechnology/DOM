@@ -1,0 +1,414 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat','Helvetica','Arial',sans-serif;
+}
+
+.lora {
+    font-family: 'Lora','Helvetica','Arial',sans-serif;
+}
+
+.center {
+    text-align: center;
+}
+
+.lead {
+    line-height: 1.69565217em;
+    font-size: 1.4375em;
+}
+
+nav {
+    background-color: black;
+    padding: 10px;
+    position: fixed;
+    width: 100%;    
+}
+
+.menu {
+    list-style-type: none;
+    display: inline-block;  
+}
+
+.menu li {
+    display: inline-block;   
+    padding: 10px;  
+}
+
+.menu li a {
+    text-decoration: none;     
+    color: white;
+}
+.menu li a:hover {
+    color: #D3D3D3;
+} 
+
+.header {
+    background-image: url("images/background.jpg");
+    color: white;
+    padding: 25px;
+}
+
+h1 {
+    font-size: 4em;
+    margin-top: 60px;
+}
+
+.header p {
+    line-height: 1.69565217em;
+}
+
+.buttons {
+    padding: 20px;
+    margin-top: 50px; 
+    margin-bottom: 50px;
+}
+.buttons a {
+    text-decoration: none;     
+    color: inherit;
+    border: 2px solid white;
+    padding: 20px;   
+    margin-right: 20px;    
+}
+
+.section1 {
+    text-align: center;    
+}
+
+.section1 h3 {
+    font-size: 2em;    
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.section1 {
+    padding-left: 300px;
+    padding-right: 300px;
+}
+
+.section1 p {
+    color: #767676;
+    text-align: left;
+}
+
+.row {
+    display:table;
+}
+
+.selection {
+    display:table-cell;
+}
+.training {
+    display:table-cell;    
+}
+
+h5 {
+    text-align: left;
+    font-size: 1em;
+}
+
+.section3 {
+    background-color: #f4f4f4; 
+    padding-bottom: 50px; 
+}
+
+.section3 h3 {
+    font-size: 2em;    
+    margin-top: 80px;
+    padding: 75px;
+}
+
+.section3 .row {
+    display:table;
+    margin-left: 350px;
+    color: #767676;
+}
+
+.section3 .card1 {
+    display:table-cell;    
+    background-color: #fff;
+    padding: 80px;
+}
+
+.section3 .card2 {
+    display:table-cell;    
+    background-color: #fff;
+    padding: 80px;
+}
+
+.section3 .empty {
+    background-color: #f4f4f4;
+    margin: 20px;    
+}
+
+.section3 h6 {
+    font-family: 'Montserrat','Helvetica','Arial',sans-serif;    
+}
+
+.section3 a {
+    text-decoration: none;   
+    background-color: #337AB7;
+
+}
+
+.section3 .btn-text {
+    color: white;
+    padding: 50px;
+}
+
+
+.section4 img {
+    width: 33%;
+    float: left;
+}
+
+.section4 .text {
+    text-align: left;
+    color: #767676;
+    padding: 0 80px 80px 80px;
+    margin-left: 500px;
+}
+.section4 .text h4 {
+    color: black;
+    font-size: 1.4375em;
+}
+
+.section5 {
+    background-color: #f4f4f4;
+    padding: 100px 300px 100px 300px;
+}
+
+.section5 h3 {
+    font-size: 1.4375em;
+}
+
+.section5 h4 {
+    margin-top: 100px;
+    font-size: 1.4375em;
+}
+
+.section5 .career {
+    display:table-cell;
+    text-align: left;
+}
+
+
+.section5 .incentives {
+    display:table-cell;    
+    text-align: left;    
+}
+
+.section5 p {
+    color: #767676;
+}
+
+
+.section6 {
+    background-color: #232323;
+    color: #f5f5f5;
+    padding: 100px 300px 100px 300px;    
+}
+
+.section6 h6 {
+    font-size: .72em;
+}
+
+.section7 {
+    padding: 60px;
+}
+
+.section7 .teacher {
+    display:table-cell;
+    padding: 8px;
+}
+
+.section7 img {
+    width: 75%;
+}
+
+.section7 .teacher p {
+    display:table-cell;
+    padding: 8px;
+    color: #767676;
+    line-height: 1.625em;
+}
+
+.section8 {
+    background-color: #f4f4f4;
+    font-size: 1.4375em;
+}
+
+.section8 img {
+    float: right;
+    width: 50%;
+
+}
+
+.section8 h4 {
+    padding-top: 75px;
+    padding-left: 75px;
+}
+
+.section8 p {
+    color: #767676;
+    padding-left: 75px;
+    padding-bottom: 30px;
+    line-height: 1.35em;
+    
+}
+
+.section9 {
+    background-color: #f4f4f4;
+    padding: 100px 200px 100px 200px;
+
+}
+
+.section9 .card3 {
+    display:table-cell;
+    background-color: white;
+    padding: 25px;   
+}
+
+.section9 .card4 {
+    display:table-cell;
+    background-color: white;
+    padding: 25px;    
+}
+
+.section9 a {
+    text-decoration: none;  
+}
+
+.section9 h5 {
+    color: black;
+}
+
+.section9 span {
+    color: #767676;
+}
+
+.section10 img {
+    width: 50%;
+    float: left;
+}
+
+.section10 {
+    font-size: 1.4375em;
+}
+
+.section10 p {
+    color: #767676;
+    margin-left: 850px;
+    padding-right: 50px;
+    line-height: 1.5em;
+    padding-bottom: 50px;
+}
+
+.section10 h4 {
+    padding-top: 50px;
+    padding-bottom: 15px;
+    margin-left: 850px;
+}
+
+.section11 {
+    background-color: #f4f4f4;
+    padding: 100px;
+}
+
+.section11 h4 {
+    font-size: 1.4375em;
+}
+
+.student-cards {
+    display:table-cell;
+    background-color: white;
+}
+
+.student-cards-img {
+    float: left;
+    height: 250px;
+    width: 175px;
+}
+
+.students-cards-p{
+    color: #767676;
+    line-height: 1.625em;
+}
+
+.section12 {
+    background-image: url("images/istock4blue.jpg");
+    padding: 100px;
+    color: white;
+}
+
+.section12 h2 {
+    font-size: 2.8125em;
+}
+
+.review {
+    display:table-cell;
+    padding-left: 200px;  
+}
+
+.section12 .review1 {
+    display:table-cell;
+    padding-left: 200px;
+}
+
+.section12 .review2 {
+    display:table-cell;
+    padding-right: 200px;
+}
+
+.section12 h5 {
+    margin-top: 100px;
+}
+
+.section13 {
+    background-color: #337AB7;
+    color: white;
+    padding: 50px 0 50px 500px;
+    
+}
+
+.section13 .applications {
+    display:table-cell;
+}
+
+.section13 .apply-button{
+    display:table-cell;
+}
+
+.section13 .apply-button a {
+    display:table-cell;
+    text-decoration: none;     
+    color: white;
+    border: 1px solid white;
+}
+.section13 span {
+    padding: 50px;
+}
+
+footer{
+    color: #767676;
+    padding: 100px 0 50px 100px;
+}
+
+.footer-menu {
+    list-style-type: none;
+    display: inline-block;  
+}
+
+.footer-menu li {
+    display: inline-block;   
+    padding: 10px;  
+}
+
+.footer-menu li a {
+    text-decoration: none;     
+    color: #767676;;
+}
+
+.copyright {
+    color: #767676;
+    margin-left: 150px;
+    font-size: 0.6875em;
+}
