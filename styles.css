@@ -1,0 +1,609 @@
+﻿body {
+    background-color: #fff;
+    margin: 0;
+}
+
+.menu-item {
+    list-style-type: none;
+    float: left;
+    color: #fff;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    font-family: 'Montserrat','Helvetica','Arial', sans-serif;
+    font-style: normal;
+    margin: 0;
+    padding: 8px 14px;
+    -webkit-font-smoothing: antialiased;
+}
+
+    .menu-item:hover {
+        color: #767676;
+        cursor: pointer;
+    }
+
+.menu-bar {
+    margin: 0;
+    overflow: hidden;
+    line-height: 50px;
+    border-bottom: solid rgba(250, 250, 250, .2) 0.5px;
+    width: 100%;
+    padding: 0;
+    height: 65px;
+    display: flex;
+    background-color: none;
+    z-index: 1;
+}
+
+.scroll-top {
+    height: 100%;
+    width: 100%;
+}
+
+#top-logo {
+    margin: 10px 25px 0px 0px;
+    display: block;
+}
+
+.logo {
+    width: 100px;
+}
+
+.background {
+    background-color: rgba(0, 0, 0, 0.75);
+    height: 650px;
+}
+
+#hidden {
+    font-family: 'Lora','Helvetica','Arial',sans-serif;
+    color: #767676;
+    font-weight: 400;
+    background-color: #232323;
+    height: 280px;
+    width: 350px;
+    margin-left: 230px;
+    padding-left: 20px;
+    display: none;
+    -webkit-transition: display 3s;
+    position: fixed;
+    z-index: 1;
+}
+
+.all-courses {
+    font-size: 12px;
+    -webkit-font-smoothing: antialiased;
+    margin-top: 15px;
+    font-weight: 400;
+}
+
+    .all-courses:hover {
+        cursor: pointer;
+    }
+
+.dropdown-cat {
+    font-size: 10px;
+    -webkit-font-smoothing: antialiased;
+    margin-top: 40px;
+}
+
+.top-container {
+    background-image: url('background (2).jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 650px;
+}
+
+h1 {
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Montserrat','Helvetica','Arial',sans-serif;
+    font-weight: 600;
+    -webkit-font-smoothing: antialiased;
+    margin-top: 100px;
+}
+
+.top-p {
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Lora','Helvetica','Arial',sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+.top-buttons {
+    margin: auto;
+    width: 450px;
+}
+
+.small-btn {
+    padding: 0px;
+    display: inline-block;
+    width: 192px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    margin: 10px;
+    font-size: 10px;
+    line-height: 40px;
+    border: solid 1px #ffffff;
+    color: #fff;
+    font-family: 'Montserrat','Helvetica','Arial',sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+    .small-btn:hover {
+        cursor: pointer;
+    }
+
+#white-btn {
+    background-color: #fff;
+    color: #428fbb;
+}
+
+.model-container {
+    background-color: #fff;
+    padding: 0;
+}
+
+.higher {
+    font-family: 'Montserrat','Helvetica','Arial',sans-serif;
+    color: #343434;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 55px;
+    padding-bottom: 30px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.words {
+    font-family: 'Lora','Helvetica','Arial',sans-serif;
+    color: #767676;
+    font-size: 22px;
+    text-align: left;
+    width: 700px;
+    margin: auto;
+    font-weight: 400;
+    line-height: 40px;
+    -webkit-font-smoothing: antialiased;
+    padding-bottom: 30px;
+}
+
+.sides {
+    width: 700px;
+    margin: auto;
+    background-color: #fff;
+}
+
+.selection {
+    float: left;
+    width: 325px;
+    text-align: left;
+    font-family: 'Montserrat','Helvetica','Arial',sans-serif;
+    color: #343434;
+    font-weight: 600;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    margin: 20px 10px 10px 10px;
+}
+
+.training {
+    float: right;
+    width: 325px;
+    text-align: left;
+    font-family: 'Montserrat','Helvetica','Arial',sans-serif;
+    color: #343434;
+    font-weight: 600;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    margin: 20px 10px 10px 10px;
+}
+
+.wordsside {
+    font-family: 'Lora','Helvetica','Arial',sans-serif;
+    color: #767676;
+    font-size: 22px;
+    text-align: left;
+    margin: auto;
+    font-weight: 400;
+    line-height: 40px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.courses-container {
+    background-color: whitesmoke;
+    margin-top: 400px;
+    padding-bottom: 550px;
+}
+
+.lambdaheader {
+    padding-top: 100px;
+    padding-bottom: 40px;
+    font-family: 'Montserrat','Helvetica','Arial',sans-serif;
+    color: #343434;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+}
+
+.course-container {
+    margin: auto;
+    width: 950px;
+}
+
+.CS {
+    float: left;
+    background-color: #fff;
+    height: 450px;
+    width: 460px;
+    text-align: center;
+}
+
+.CSA {
+    font-family: 'Montserrat','Helvetica','Arial',sans-serif;
+    color: #343434;
+    font-size: 12px;
+    -webkit-font-smoothing: antialiased;
+    border-bottom: 1px solid #eeeeee;
+    width: 350px;
+    margin: auto;
+    line-height: 70px;
+    padding-top: 10px;
+}
+
+.ML {
+    float: right;
+    background-color: white;
+    height: 450px;
+    width: 460px;
+    text-align: center;
+}
+
+.MLAI {
+    font-family: 'Montserrat','Helvetica','Arial',sans-serif;
+    color: #343434;
+    font-size: 12px;
+    -webkit-font-smoothing: antialiased;
+    border-bottom: 1px solid #eeeeee;
+    width: 350px;
+    margin: auto;
+    line-height: 70px;
+    padding-top: 10px;
+}
+
+.cwords {
+    text-align: center;
+    font-family: 'Lora','Helvetica','Arial',sans-serif;
+    color: #767676;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    font-size: 16px;
+    line-height: 26px;
+    padding-top: 12px;
+}
+
+.it {
+    text-align: center;
+    font-family: 'Lora','Helvetica','Arial',sans-serif;
+    color: #767676;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    font-size: 16px;
+    line-height: 26px;
+    padding-top: 10px;
+    font-style: italic;
+}
+
+.blue-small-btn {
+    padding: 0px;
+    display: inline-block;
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 36px;
+    font-size: 10px;
+    line-height: 50px;
+    border: solid 1px #428fbb;
+    background-color: #428fbb;
+    letter-spacing: 1px;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'Montserrat','Helvetica','Arial',sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+    .blue-small-btn:hover {
+        cursor: pointer;
+        opacity: .95;
+        -webkit-transition: 0.1s linear;
+    }
+
+.skills-container {
+    height: 920px;
+    margin-top: 0;
+    padding-top: 10px;
+    background-color: whitesmoke;
+}
+
+.blue-img {
+    background-image: url("https://lambdaschool.com/assets/img/istock1blue.jpg");
+    background-attachment: fixed;
+    background-position-x: -420px;
+    background-position-y: -200px;
+    height: 920px;
+    margin: 0;
+    padding: 0;
+}
+
+.white-right {
+    background-color: #fff;
+    margin-left: 358px;
+    height: 800px;
+    padding-top: 200px;
+    padding-left: 110px;
+    padding-right: 120px;
+}
+
+.right-header {
+    font-family: 'Montserrat','Helvetica','Arial',sans-serif;
+    color: #343434;
+    font-weight: 600;
+    -webkit-font-smoothing: antialiased;
+    font-size: 24px;
+    width: 520px;
+}
+
+.right-words {
+    width: 520px;
+    font-weight: 400;
+    font-family: 'Lora','Helvetica','Arial',sans-serif;
+    color: #767676;
+    -webkit-font-smoothing: antialiased;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+    .right-words p {
+        margin-top: 40px;
+    }
+
+.graduate-container {
+    background-color: whitesmoke;
+    padding-top: 10px;
+}
+
+#grad-head {
+    font-size: 28px;
+    padding-bottom: 0;
+}
+
+#graduate-words {
+    text-align: center;
+    font-size: 20px;
+    line-height: 34px;
+}
+
+#no-more-bold {
+    color: #343434;
+}
+
+.risk-aligned {
+    padding-top: 20px;
+    width: 700px;
+    height: 220px;
+    margin: auto;
+}
+
+.risk {
+    float: left;
+    height: 220px;
+    width: 325px;
+}
+
+.aligned {
+    float: right;
+    height: 220px;
+    width: 325px;
+}
+
+.risk-aligned-title {
+    font-family: 'Montserrat','Helvetica','Arial',sans-serif;
+    color: #343434;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-size: 11px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.risk-aligned-words {
+    padding-top: 6px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 34px;
+    font-family: 'Lora','Helvetica','Arial',sans-serif;
+    color: #767676;
+    -webkit-font-smoothing: antialiased;
+}
+
+.classroom-experience {
+    background-color: #232323;
+    height: 400px;
+    width: 100%;
+}
+
+#ce {
+    color: #f5f5f5;
+    padding-top: 14%;
+    margin-left: 5%;
+    width: 60%;
+}
+
+#ce-words {
+    color: #f5f5f5;
+    margin-left: 5%;
+    margin-right: 15%;
+    width: 80%;
+    height: 20%;
+    font-family: 'Lora','Helvetica','Arial',sans-serif;
+    display: block;
+}
+
+.instructors {
+    width: 90%;
+    height: 550px;
+    margin: 0 4%;
+}
+
+.world-class {
+    color: #232323;
+    font-family: 'Montserrat','Helvetica','Arial',sans-serif;
+    font-weight: 600;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.name {
+    color: #232323;
+    font-family: 'Montserrat','Helvetica','Arial',sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+.sixth-container {
+    height: 900px;
+    background-color: whitesmoke;
+}
+
+.blue-right {
+    background-image: url('https://lambdaschool.com/assets/img/istock6blue.jpg');
+    background-attachment: fixed;
+    background-position-x: 200px;
+    background-position-y: -160px;
+    height: 110%;
+    margin: 0;
+    padding: 0;
+}
+
+.white-left {
+    background-color: whitesmoke;
+    padding-top: 130px;
+    height: 100%;
+    margin-right: 450px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.left-header {
+    font-family: 'Montserrat','Helvetica','Arial',sans-serif;
+    color: #343434;
+    font-weight: 600;
+    -webkit-font-smoothing: antialiased;
+    font-size: 22px;
+    margin-bottom: 50px;
+}
+
+.left-words {
+    font-family: 'Lora','Helvetica','Arial',sans-serif;
+    color: #767676;
+    -webkit-font-smoothing: antialiased;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    margin-top: 5px;
+}
+
+#free-lambda {
+    padding-left: 80px;
+}
+
+.js-btn {
+    background-color: #fff;
+    height: 150px;
+    width: 450px;
+    float: left;
+    margin-right: 15px;
+}
+
+    .js-btn:hover {
+        cursor: pointer;
+    }
+
+.btn-header {
+    font-family: 'Montserrat','Helvetica','Arial',sans-serif;
+    font-weight: 600;
+    color: #232323;
+    font-size: 14px;
+    padding-left: 30px;
+    padding-top: 30px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.web-btn {
+    background-color: #fff;
+    height: 150px;
+    width: 450px;
+    float: left;
+    margin-left: 15px;
+}
+
+    .web-btn:hover {
+        cursor: pointer;
+    }
+
+.btn-italics {
+    padding-left: 30px;
+    padding-right: 60px;
+    font-style: italic;
+    color: #767676;
+    font-size: 14px;
+    font-family: 'Lora','Helvetica','Arial',sans-serif;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+}
+
+.blue-left-two {
+    background-image: url("https://lambdaschool.com/assets/img/istock5blue.jpg");
+    background-attachment: fixed;
+    background-position-x: -380px;
+    background-position-y: 0px;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.white-right-two {
+    background-color: #fff;
+    height: 100%;
+    margin-left: 520px;
+    padding-top: 140px;
+    padding-left: 80px;
+    padding-right: 60px;
+}
+
+.lambdas-people {
+    font-family: 'Montserrat','Helvetica','Arial',sans-serif;
+    color: #343434;
+    font-weight: 600;
+    font-size: 24px;
+    -webkit-font-smoothing: antialiased;
+    margin-bottom: 50px;
+}
+
+.white-right-words-two {
+    font-family: 'Lora','Helvetica','Arial',sans-serif;
+    color: #767676;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    margin-top: 20px;
+    -webkit-font-smoothing: antialiased;
+}
