@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href=".\styles.css"> 
+        <link rel="icon" 
+        type="image/png" 
+        href="https://lambdaschool.com//favicon/favicon-16x16.png">
+        <title>Lambda School - A computer science education that's 100% free until you're hired.</title>
+        <script>
+                window.onscroll = () => {lowerNav()};
+                
+                const lowerNav = () => {
+                    if (document.body.scrollTop >700 || document.documentElement.scrollTop > 700) {
+                        document.getElementById("nav_lower").style.opacity = 1;
+                        document.getElementById("nav_lower").style.height = "55px";
+                    } else {
+                        document.getElementById("nav_lower").style.height = "0px";
+                        document.getElementById("nav_lower").style.opacity = 0;
+                    }
+                };
+                const courseDrop = () => {
+                    document.getElementById("drop_box").style.display = "block";
+                    document.getElementById("drop_box").style.opacity = 1;
+                };
+                const courseClose = () => {
+                    document.getElementById("drop_box").style.opacity = 0;
+                    document.getElementById("drop_box").style.display = "none";
+                };
+                </script>
+    </head>
+    <body>
+        <div class="top_section">
+            <div id="bg_image">
+        
+            </div>
+            <div class="nav_upper">
+                <div style="display:inline-block;position:relative;margin-left:50px; margin-right:45px; width:100px;top:10px;"><img style="width:100%;"  src="./assets/lambdawhite.png"/></div>
+                <div class="nav-tab">ABOUT</div>
+                <div class="nav-tab">COURSES</div>
+                <div class="nav-tab">BLOG</div>
+                <div class="nav-tab">CONTACT</div>
+                <div class="nav-tab">APPLY</div>
+                <h1>The Computer Science Education <br> of the Future</h1>
+                <p>Immersive preparation for the world's most in-demand careers,<br>
+                    for as little as <strong>$0 until you're hired</strong></p>
+                <div style=" height:100px; position:relative; font-size:0.7em; top: 105px; text-align:center; ">
+                    <div style="color:white;font-family:'Montserrat','Helvetica','Arial',sans-serif;border:solid 1px white; margin-right:25px;width:150px;height:8px;display:inline-block;padding:19px 20px 20px 20px;text-align:center;"><strong> VIEW COURSES</strong></div> <div style="color:#428fbb;border:solid 1px white;width:150px;height:8px;display:inline-block;background-color:white;text-align:center; padding:19px 20px 20px 20px;"><strong>APPLY NOW</strong></div>
+                </div>
+                <div id="drop_box" class="drop_down" onmouseover="courseDrop();" onmouseleave="courseClose();">
+                    <div class="view_all_courses">VIEW ALL COURSES</div>
+                    <br/>
+                    <div id="drop_down-content_box">
+                        <div style="color:white; opacity:0.5;padding:15px;font-size:0.6em;">COURSES</div>
+                        <div class="view_all_courses" style="padding-top:5px;">COMPUTER SCIENCE & SOFTWARE ENGINEERING</div>
+                        <div class="view_all_courses"style="padding-top:5px;">ARTIFICIAL INTELLEGIANCE & MACHINE LEARNING</div>
+                        <div style="color:white; opacity:0.5;padding:15px;font-size:0.6em;">FREE COURSE ARCHIVES</div>
+                        <div class="view_all_courses" style="padding-top:5px;">JAVASCRIPT MINI BOOTCAMP</div>
+                        <div class="view_all_courses" style="padding-top:5px;">WEB DEVELOPMENT MINI BOOTCAMP</div>
+                    </div>
+                </div>
+            </div>
+            <div id="nav_lower" class="nav_lower">
+                    <div style="display:inline-block;position:relative;margin-left:50px; margin-right:45px; width:100px;top:10px;"><img style="width:100%;"  src="./assets/lambdawhite.png"/></div>
+                    <div class="nav-tab">ABOUT</div>
+                    <div id="courses" onmouseover= "courseDrop();" onmouseleave="courseClose();" class="nav-tab">COURSES</div>
+                    <div class="nav-tab">BLOG</div>
+                    <div class="nav-tab">CONTACT</div>
+                    <div class="nav-tab">APPLY</div>
+                    
+            </div>
+            <div id="ts_content" style="color:black;">
+                <p style="color:black; font-size:2em;margin-bottom:50px; font-weight:700;font-family:Arial, Helvetica, sans-serif;">A New Model for Higher Education</p>
+                <p style="margin-left:25%;margin-bottom:40px;opacity:0.5;text-align:left;color:black;">Lambda School invests in a small number of ambitious individuals by<br> training them for the world's most in-demand careers.</p>
+                <p style="margin-left:25%;margin-bottom:170px;opacity:0.5;text-align:left;color:black;">In exchange, Lambda School graduates pay back a small percentage<br> of their salary after they are hired.</p>
+                <div style="display:inline-block;height: 250px;margin-left:25%; width:350px;">
+                    <div style="font-size:1.1em;font-family:Arial, Helvetica, sans-serif;text-align:left;"><strong>Selection</strong></div>
+                    <br>
+                    <div  style="opacity:0.5;font-size:1.7em;font-family:'Times New Roman', Times, serif;display:left;">Our unique application and<br/> 
+                        interview process is designed to<br/>
+                        identify those with great<br/>
+                        aptitude for a technical career,<br/>
+                        regardless of their background.</div>
+                </div>
+                <div style="display:inline-block; height: 250px;margin-left:2%; width:350px;">
+                        <div style="font-size:1.1em;font-family:Arial, Helvetica, sans-serif;text-align:left;"><strong>Training</strong></div>
+                        <br>
+                        <div  style="opacity:0.5;font-size:1.7em;font-family:'Times New Roman', Times, serif;display:left;">
+                                Once students are selected, a<br>
+                                small class undergoes live,<br>
+                                intensive online training<br>
+                                designed to meet the rigorous<br>
+                                demands of our hiring partners.</div>
+                    </div>
+                
+            </div>
+        </div>
+        
+    </body>
+</html>
