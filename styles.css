@@ -1,0 +1,276 @@
+.TopSection {
+    background: url(https://lambdaschool.com/assets/img/background.jpg);
+    background-image: url(https://lambdaschool.com/assets/img/background.jpg);
+    background-color: #5a99bd;
+    background-blend-mode: soft-light;
+    background-size: contain;
+}
+
+.Nav {
+    padding: 15px;
+    margin: 0px;
+}
+
+.Nav--blue {
+    color: white;
+    display: inline-flex;
+    width: 100%;
+    margin: 0px;
+    padding: 10px 0px;
+    height: 60px;
+    border: #5a99bd;
+    border-bottom-width: 0.5px;
+    border-bottom-color: #5a99bd;
+    border-bottom-style: solid;
+}
+
+.Nav-item {
+    display: inline;
+    padding: 20px 25px;
+    padding-top: 30px;
+    position: relative;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: 'Montserrat','Helvetica','Arial',sans-serif;
+}
+
+.Nav-logo {
+    display: inline;
+    padding-top: 0px;
+    padding: 10px;
+}
+
+.Intro {
+    text-align: center;
+    padding: 300px 10px;
+    width: 100%;
+    font-family:  'Montserrat','Helvetica','Arial',sans-serif;
+    color: white;
+}
+.IntroHead {
+    color: white;
+    font-size: 50px;
+    font-weight: 600px;
+}
+.IntroBody {
+    font-size: 24px;
+    padding: 5px;
+    line-height: 40px;
+    margin-bottom: 5px;
+}
+
+.ViewApply {
+    display: inline-flex;
+    padding: 0px;
+    position: relative;
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: 'Montserrat','Helvetica','Arial',sans-serif;
+}
+
+.View {
+    display: inline;
+    margin: 0px 20px;
+    padding: 15px 40px;
+    border: 1px solid white;
+}
+
+.Apply {
+    color: #5a99bd;
+    display: inline;
+    margin: 0px 20px;
+    padding: 15px 50px;
+    background-color: white
+}
+
+.Heading {
+    color: #333333;
+    font-family: 'Lora','Helvetica','Arial',sans-serif;
+    text-align: center;
+    font-size: 35px;
+}
+
+.Heading2 {
+    color: #333333;
+    font-family: 'Lora','Helvetica','Arial',sans-serif;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 80px;
+}
+
+.BodyText {
+    color: #676767;
+    font-size: 26px;
+    padding: 5px 100px;
+}
+
+.BodyText2 {
+    color: #676767;
+    text-align: center;
+    font-size: 26px;
+    padding: 5px 100px;
+}
+
+.Body {
+    padding: 75px;
+    background: #f8f8f8;
+}
+
+.Body2 {
+    padding: 75px;
+    background: #EFEFEF;
+}
+
+.Body4 {
+    padding: 75px;
+    background: #EFEFEF;
+}
+
+.Body5 {
+    color: #f8f8f8;
+    padding: 180px 220px;
+    background: #1F1F1F;
+}
+
+h1, h2, h3, h4, h5 {
+    color: #333333;
+    font-family: 'Lora','Helvetica','Arial',sans-serif;
+}
+
+.SmallTitles {
+    font-size: 20px;
+    text-align: left;
+}
+
+.SmallTitles2 {
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Montserrat','Helvetica','Arial',sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.SmallTitles3 {
+    font-size: 12px;
+    text-align: left;
+    font-family: 'Montserrat','Helvetica','Arial',sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.SmallTitles4 {
+    color: #EFEFEF;
+    font-size: 12px;
+    text-align: left;
+    font-family: 'Montserrat','Helvetica','Arial',sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.SmallBlocks {
+    display: inline-flex;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 50px;
+}
+
+.SmallBlocks2 {
+    display: inline-flex;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px 50px;
+    font-family: 'Lora','Helvetica','Arial',sans-serif;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.SmallBlock {
+    display: block;
+    width: 500px;
+    margin: 0px 50px;
+}
+
+.SmallBlock2 {
+    text-align: center;
+    background: #f8f8f8;
+    display: block;
+    width: 500px;
+    margin: 0px 20px;
+    padding: 80px 30px;
+}
+
+.SmallBlock3 {
+    display: block;
+    width: 50%;
+    margin: 80px 10px;
+    padding: 100px 15px;
+}
+
+
+.BlockBodyText {
+    color: #676767;
+    font-size: 26px;
+    padding: 0px;
+}
+
+.BlockBodyText3 {
+    color: #EFEFEF;
+    font-size: 26px;
+    padding: 0px;
+    padding-right: 100px;
+}
+
+.BlockBodyText2 {
+    text-align: center;
+    color: #676767;
+    font-size: 16px;
+    padding: 0px 100px;
+    font-family: 'Lora','Helvetica','Arial',sans-serif;
+    font-weight: 300;
+    margin-bottom: 60px;
+    line-height: 28px;
+}
+
+.Line {
+    background-color: #D3D3D3;
+    height: .5px;
+    padding: 0px 40px;
+    margin: 0px 30px;
+}
+
+.Learn {
+    font-size: 12px;
+    text-align: center;
+    font-family: 'Montserrat','Helvetica','Arial',sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: white;
+    display: inline;
+    margin: 40px 20px;
+    padding: 15px 50px;
+    background-color: #5a99bd
+}
+
+.Body3 {
+    padding: 0px;
+    background: #f8f8f8;
+}
+
+.SidePic {
+    display: flex;
+    width: 30%;
+    position: relative;
+    margin-right: 80px;
+}
+
+.PicText {
+    display: inline-flex;
+    width: 100%;
+    margin-left: 0;
+    margin-right: auto;
+    padding: 0px 0px;
+}
