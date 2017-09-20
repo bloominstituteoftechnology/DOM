@@ -1,0 +1,81 @@
+.first-section {
+	background-image: url("https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/21032549_10159070309470532_5271778006322029204_n.jpg?oh=dc45c452a3b6cb849318aba03a606af8&oe=5A48DEE6");
+	background-size:cover
+}
+/*
+my face: https://scontent-iad3-1.xx.fbcdn.net/v/t1.0-9/21032549_10159070309470532_5271778006322029204_n.jpg?oh=dc45c452a3b6cb849318aba03a606af8&oe=5A48DEE6
+original: https://lambdaschool.com/assets/img/background.jpg;
+*/
+.nav-container {
+	color: white;
+}
+
+
+.background-tint {
+	background-color: rgba(0,140,200,1);
+	background-blend-mode: multiply;
+}
+
+.middle-block {
+	width: 65%;
+	margin: 0 auto;
+	height: 500px;
+	padding-top: 200px;
+	padding-bottom: 200px;
+}
+
+.head {
+	color: white;
+	text-align: center;
+	padding: 20px;
+	font-size: 80px;
+	font-style: bold;
+}
+
+.button-container {
+	padding-top: 10px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.subhead {
+	color: white;
+	text-align: center;
+	padding: 30px;
+	font-size: 40px;
+;}
+
+.nav-button {
+	background-color: Transparent;
+	background-repeat:no-repeat;
+	border: none;
+	cursor:pointer;
+	overflow: hidden;
+	outline:none;
+	color: white;
+	padding-top: 10px;
+	padding-left: 20px;
+	font-size: 16px;
+}
+
+.logo {
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.view-courses, .apply-now {
+	height: 80px;
+	width: 200px;
+	font-size: 14px;
+	margin: 20px;
+}
+
+.view-courses {
+	background-color: Transparent;
+	color: white;
+}
+
+.apply-now {
+	color: rgba(0,140,200);
+	background-color: white;
+}
